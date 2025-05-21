@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../../../Dashboard.css'; // не меняем, всё как было
+import '../../Dashboard.css'; // не меняем, всё как было
 
 export default function IntroModule() {
   return (
