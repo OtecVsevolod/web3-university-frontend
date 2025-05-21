@@ -20,7 +20,7 @@ export default function IntroModule() {
         <Link to="/intro/lesson8" className="dashboard-button">Урок 8: Как продать и вывести</Link>
         <Link to="/intro/lesson9" className="dashboard-button">Урок 9: Где хранится моя крипта?</Link>
         <Link to="/intro/lesson10" className="dashboard-button">Урок 10: Ошибки и риски новичков</Link>
-        <div className="dashboard-xp">...и можно прокачать до 10 уроков</div>
+        <div className="dashboard-xp"></div>
       </div>
 
       {/* Кнопка возврата на главную */}
