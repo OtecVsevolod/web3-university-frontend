@@ -1,5 +1,5 @@
 import React from "react";
-import LessonWrapper from "../../components/LessonWrapper";
+import LessonWrapper from "../../../components/LessonWrapper";
 import { Link } from "react-router-dom";
 
 const Lesson10 = () => {
