@@ -80,6 +80,42 @@
     justify-content: space-between;
     margin-top: 20px;
   }
+
+  .option-button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px 16px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    transition: 0.3s;
+  }
+  
+  .option-button:hover {
+    border-color: #00ffaa;
+    background-color: #222;
+  }
+  
+  .option-button.correct {
+    border-color: #00ff88;
+    background-color: #003322;
+  }
+  
+  .option-button.incorrect {
+    border-color: #ff4444;
+    background-color: #330000;
+  }
+  
+  .option-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
   
 
  

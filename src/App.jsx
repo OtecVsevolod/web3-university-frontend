@@ -12,6 +12,7 @@ import IntroLesson7 from './pages/modules/intro/IntroLesson7';
 import IntroLesson8 from './pages/modules/intro/IntroLesson8';
 import IntroLesson9 from './pages/modules/intro/IntroLesson9';
 import IntroLesson10 from './pages/modules/intro/IntroLesson10';
+import FinalTestIntro from './pages/modules/intro/FinalTestIntro';
 
 
 
@@ -34,6 +35,7 @@ export default function App() {
         <Route path="/intro/lesson8" element={<IntroLesson8 />} />
         <Route path="/intro/lesson9" element={<IntroLesson9 />} />
         <Route path="/intro/lesson10" element={<IntroLesson10 />} />
+        <Route path="/intro/FinalTestIntro" element={<FinalTestIntro />} />
       </Routes>
     </Router>
   );
