@@ -1,0 +1,24 @@
+.lesson-wrapper {
+    background-color: #121212;
+    color: #f0f0f0;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: inherit;
+  }
+  
+  .back-button {
+    margin-bottom: 20px;
+    background-color: #2a2a2a;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .lesson-content {
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  

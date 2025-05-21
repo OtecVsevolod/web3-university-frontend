@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import LessonWrapper from '../../../components/LessonWrapper';
 import '../../../LessonStyle.css';
 
 export default function IntroLesson2() {
   return (
-    <div className="lesson-container">
+    <LessonWrapper>
       <h2>Урок 2: <span className="highlight">Что такое блокчейн?</span></h2>
       
       <p><span className="highlight">Блокчейн</span> — это способ хранения информации. Можно представить его как цепочку коробок. В каждой коробке лежат данные (например, кто кому и сколько перевёл).</p>
@@ -29,7 +30,7 @@ export default function IntroLesson2() {
       <div className="navigation-buttons">
         <Link to="/intro/lesson1" className="nav-button">Назад</Link>
         <Link to="/intro/lesson3" className="nav-button">Далее</Link>
-      </div>
-    </div>
+        </div>
+        </LessonWrapper>
   );
 }

@@ -45,4 +45,41 @@
     background-color: #444;
     border-color: #fff;
   }
+
+  .back-button-wrapper {
+    margin-bottom: 10px;
+  }
   
+  .back-button {
+    background-color: #444;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .lesson-container {
+    background-color: #111;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .lesson-box {
+    border: 1px solid #555;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: #1b1b1b;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+
+ 
