@@ -1,6 +1,13 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './i18n'; // Подключение i18next
+import LanguageSelector from './components/LanguageSelector';
+
+// Главные страницы
 import Dashboard from './pages/Dashboard';
 import About from './pages/About';
+
+// Модуль 1: Введение в крипту
 import IntroModule from './pages/modules/intro/IntroModule';
 import IntroLesson1 from './pages/modules/intro/IntroLesson1';
 import IntroLesson2 from './pages/modules/intro/IntroLesson2';
@@ -14,29 +21,59 @@ import IntroLesson9 from './pages/modules/intro/IntroLesson9';
 import IntroLesson10 from './pages/modules/intro/IntroLesson10';
 import FinalTestIntro from './pages/modules/intro/FinalTestIntro';
 
-
+// ✅ Модуль 2: Основы блокчейна
+import BlockModule from './pages/modules/blockchain/BlockModule';
+import BlockLesson1 from './pages/modules/blockchain/BlockLesson1';
+import BlockLesson2 from './pages/modules/blockchain/BlockLesson2';
+import BlockLesson3 from './pages/modules/blockchain/BlockLesson3';
+import BlockLesson4 from './pages/modules/blockchain/BlockLesson4';
+import BlockLesson5 from './pages/modules/blockchain/BlockLesson5';
+import BlockLesson6 from './pages/modules/blockchain/BlockLesson6';
+import BlockLesson7 from './pages/modules/blockchain/BlockLesson7';
+import BlockLesson8 from './pages/modules/blockchain/BlockLesson8';
+import BlockLesson9 from './pages/modules/blockchain/BlockLesson9';
+import BlockLesson10 from './pages/modules/blockchain/BlockLesson10';
 
 export default function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Dashboard />} />
-        <Route path="/about" element={<About />} />
+      <div className="App">
+        {/* Выбор языка */}
+        <LanguageSelector />
 
-        {/* Введение в крипту (модуль + уроки) */}
-        <Route path="/intro" element={<IntroModule />} />
-        <Route path="/intro/lesson1" element={<IntroLesson1 />} />
-        <Route path="/intro/lesson2" element={<IntroLesson2 />} />
-        <Route path="/intro/lesson3" element={<IntroLesson3 />} />
-        <Route path="/intro/lesson4" element={<IntroLesson4 />} />
-        <Route path="/intro/lesson5" element={<IntroLesson5 />} />
-        <Route path="/intro/lesson6" element={<IntroLesson6 />} />
-        <Route path="/intro/lesson7" element={<IntroLesson7 />} />
-        <Route path="/intro/lesson8" element={<IntroLesson8 />} />
-        <Route path="/intro/lesson9" element={<IntroLesson9 />} />
-        <Route path="/intro/lesson10" element={<IntroLesson10 />} />
-        <Route path="/intro/FinalTestIntro" element={<FinalTestIntro />} />
-      </Routes>
+        <Routes>
+          {/* Главные страницы */}
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/about" element={<About />} />
+
+          {/* Модуль: Введение в крипту */}
+          <Route path="/intro" element={<IntroModule />} />
+          <Route path="/intro/lesson1" element={<IntroLesson1 />} />
+          <Route path="/intro/lesson2" element={<IntroLesson2 />} />
+          <Route path="/intro/lesson3" element={<IntroLesson3 />} />
+          <Route path="/intro/lesson4" element={<IntroLesson4 />} />
+          <Route path="/intro/lesson5" element={<IntroLesson5 />} />
+          <Route path="/intro/lesson6" element={<IntroLesson6 />} />
+          <Route path="/intro/lesson7" element={<IntroLesson7 />} />
+          <Route path="/intro/lesson8" element={<IntroLesson8 />} />
+          <Route path="/intro/lesson9" element={<IntroLesson9 />} />
+          <Route path="/intro/lesson10" element={<IntroLesson10 />} />
+          <Route path="/intro/FinalTestIntro" element={<FinalTestIntro />} />
+
+          {/* ✅ Модуль: Основы блокчейна */}
+          <Route path="/blockchain" element={<BlockModule />} />
+          <Route path="/blockchain/lesson1" element={<BlockLesson1 />} />
+          <Route path="/blockchain/lesson2" element={<BlockLesson2 />} />
+          <Route path="/blockchain/lesson3" element={<BlockLesson3 />} />
+          <Route path="/blockchain/lesson4" element={<BlockLesson4 />} />
+          <Route path="/blockchain/lesson5" element={<BlockLesson5 />} />
+          <Route path="/blockchain/lesson6" element={<BlockLesson6 />} />
+          <Route path="/blockchain/lesson7" element={<BlockLesson7 />} />
+          <Route path="/blockchain/lesson8" element={<BlockLesson8 />} />
+          <Route path="/blockchain/lesson9" element={<BlockLesson9 />} />
+          <Route path="/blockchain/lesson10" element={<BlockLesson10 />} />
+        </Routes>
+      </div>
     </Router>
   );
 }

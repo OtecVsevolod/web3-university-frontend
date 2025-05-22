@@ -1,22 +1,24 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import translationRU from './i18n/ru.json';
-import translationUA from './i18n/ua.json';
-import translationEN from './i18n/en.json';
-import translationES from './i18n/es.json';
+import translationRU from './locales/ru/translation.json';
+import translationUA from './locales/ua/translation.json';
+import translationEN from './locales/en/translation.json';
+import translationES from './locales/es/translation.json';
+
+const resources = {
+  ru: { translation: translationRU },
+  ua: { translation: translationUA },
+  en: { translation: translationEN },
+  es: { translation: translationES },
+};
 
 i18n
   .use(initReactI18next)
   .init({
-    resources: {
-      ru: { translation: translationRU },
-      ua: { translation: translationUA },
-      en: { translation: translationEN },
-      es: { translation: translationES },
-    },
-    lng: 'ru',
-    fallbackLng: 'ru',
+    resources,
+    lng: localStorage.getItem('language') || 'ru',
+    fallbackLng: 'en',
     interpolation: {
       escapeValue: false,
     },
