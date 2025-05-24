@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './i18n'; // Подключение i18next
+import './i18n';
 import LanguageSelector from './components/LanguageSelector';
 
 // Главные страницы
@@ -34,11 +34,24 @@ import BlockLesson8 from './pages/modules/blockchain/BlockLesson8';
 import BlockLesson9 from './pages/modules/blockchain/BlockLesson9';
 import BlockLesson10 from './pages/modules/blockchain/BlockLesson10';
 
+// ✅ Модуль 3: Ethereum и смарт-контракты
+import EthereumModule from './pages/modules/ethereum/EthereumModule';
+import Lesson1 from './pages/modules/ethereum/Lesson1';
+import Lesson2 from './pages/modules/ethereum/Lesson2';
+import Lesson3 from './pages/modules/ethereum/Lesson3';
+import Lesson4 from './pages/modules/ethereum/Lesson4';
+import Lesson5 from './pages/modules/ethereum/Lesson5';
+import Lesson6 from './pages/modules/ethereum/Lesson6';
+import Lesson7 from './pages/modules/ethereum/Lesson7';
+import Lesson8 from './pages/modules/ethereum/Lesson8';
+import Lesson9 from './pages/modules/ethereum/Lesson9';
+import Lesson10 from './pages/modules/ethereum/Lesson10';
+import FinalTestEthereum from './pages/modules/ethereum/FinalTestEthereum';
+
 export default function App() {
   return (
     <Router>
       <div className="App">
-        {/* Выбор языка */}
         <LanguageSelector />
 
         <Routes>
@@ -60,7 +73,7 @@ export default function App() {
           <Route path="/intro/lesson10" element={<IntroLesson10 />} />
           <Route path="/intro/FinalTestIntro" element={<FinalTestIntro />} />
 
-          {/* ✅ Модуль: Основы блокчейна */}
+          {/* Модуль: Основы блокчейна */}
           <Route path="/blockchain" element={<BlockModule />} />
           <Route path="/blockchain/lesson1" element={<BlockLesson1 />} />
           <Route path="/blockchain/lesson2" element={<BlockLesson2 />} />
@@ -72,6 +85,20 @@ export default function App() {
           <Route path="/blockchain/lesson8" element={<BlockLesson8 />} />
           <Route path="/blockchain/lesson9" element={<BlockLesson9 />} />
           <Route path="/blockchain/lesson10" element={<BlockLesson10 />} />
+
+          {/* ✅ Модуль: Ethereum и смарт-контракты */}
+          <Route path="/modules/ethereum" element={<EthereumModule />} />
+          <Route path="/modules/ethereum/lesson1" element={<Lesson1 />} />
+          <Route path="/modules/ethereum/lesson2" element={<Lesson2 />} />
+          <Route path="/modules/ethereum/lesson3" element={<Lesson3 />} />
+          <Route path="/modules/ethereum/lesson4" element={<Lesson4 />} />
+          <Route path="/modules/ethereum/lesson5" element={<Lesson5 />} />
+          <Route path="/modules/ethereum/lesson6" element={<Lesson6 />} />
+          <Route path="/modules/ethereum/lesson7" element={<Lesson7 />} />
+          <Route path="/modules/ethereum/lesson8" element={<Lesson8 />} />
+          <Route path="/modules/ethereum/lesson9" element={<Lesson9 />} />
+          <Route path="/modules/ethereum/lesson10" element={<Lesson10 />} />
+          <Route path="/modules/ethereum/FinalTestEthereum" element={<FinalTestEthereum />} />
         </Routes>
       </div>
     </Router>

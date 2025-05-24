@@ -1,0 +1,14 @@
+{
+  "intro_lesson1_title": "Урок 1: Что такое <highlight>криптовалюта</highlight>?",
+  "intro_lesson1_paragraph1": "<highlight>Криптовалюта</highlight> — это цифровая форма <highlight>денег</highlight>, которая работает без посредников: <highlight>банков</highlight>, государственных структур или централизованных платформ. Она передаётся напрямую от человека к человеку через <highlight>блокчейн</highlight>.",
+  "intro_lesson1_paragraph2": "Первая криптовалюта — <highlight>Bitcoin</highlight>. Её появление в 2009 году стало ответом на недоверие к банковской системе после кризиса 2008 года. С тех пор появилось множество других криптовалют: <highlight>Ethereum</highlight>, <highlight>Litecoin</highlight>, <highlight>стейблкоины</highlight> и другие.",
+  "intro_lesson1_paragraph3": "Главная идея — дать пользователю <highlight>контроль</highlight> над своими средствами. Чтобы никто не мог <highlight>заморозить</highlight>, <highlight>отозвать</highlight> или <highlight>переписать</highlight> твои активы. Это не просто про деньги — это про <highlight>устойчивость</highlight>, <highlight>прозрачность</highlight> и <highlight>независимость</highlight>.",
+  "back_button": "Назад",
+  "next_button": "Далее",
+  "ethereumModule": {
+    "lesson1": {
+      "title": "Урок 1. Что такое Ethereum и чем он отличается от Биткоина",
+      "text": "<p><highlight>Ethereum</highlight> — это не просто криптовалюта. Это глобальный \\\"компьютер\\\", распределённый по тысячам узлов по всему миру.</p><p>В отличие от <highlight>Биткоина</highlight>, который умеет только пересылать ценность, Ethereum позволяет запускать <highlight>смарт-контракты</highlight> — программы, работающие в блокчейне.</p><p>Создатель — <highlight>Виталик Бутерин</highlight>, предложил Ethereum в 2013 году.</p><p><highlight>ETH</highlight> — это не просто монета. Это <highlight>топливо</highlight>, нужное для оплаты всех действий в сети. Каждое действие требует <highlight>газа (gas)</highlight>, который оплачивается в ETH.</p>"
+    }
+  }
+}
