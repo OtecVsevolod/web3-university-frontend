@@ -36,16 +36,16 @@ import BlockLesson10 from './pages/modules/blockchain/BlockLesson10';
 
 // ✅ Модуль 3: Ethereum и смарт-контракты
 import EthereumModule from './pages/modules/ethereum/EthereumModule';
-import Lesson1 from './pages/modules/ethereum/Lesson1';
-import Lesson2 from './pages/modules/ethereum/Lesson2';
-import Lesson3 from './pages/modules/ethereum/Lesson3';
-import Lesson4 from './pages/modules/ethereum/Lesson4';
-import Lesson5 from './pages/modules/ethereum/Lesson5';
-import Lesson6 from './pages/modules/ethereum/Lesson6';
-import Lesson7 from './pages/modules/ethereum/Lesson7';
-import Lesson8 from './pages/modules/ethereum/Lesson8';
-import Lesson9 from './pages/modules/ethereum/Lesson9';
-import Lesson10 from './pages/modules/ethereum/Lesson10';
+import Lesson1 from './pages/modules/ethereum/lesson1';
+import Lesson2 from './pages/modules/ethereum/lesson2';
+import Lesson3 from './pages/modules/ethereum/lesson3';
+import Lesson4 from './pages/modules/ethereum/lesson4';
+import Lesson5 from './pages/modules/ethereum/lesson5';
+import Lesson6 from './pages/modules/ethereum/lesson6';
+import Lesson7 from './pages/modules/ethereum/lesson7';
+import Lesson8 from './pages/modules/ethereum/lesson8';
+import Lesson9 from './pages/modules/ethereum/lesson9';
+import Lesson10 from './pages/modules/ethereum/lesson10';
 import FinalTestEthereum from './pages/modules/ethereum/FinalTestEthereum';
 
 export default function App() {
