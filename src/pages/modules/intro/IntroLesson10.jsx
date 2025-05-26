@@ -1,52 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import LessonWrapper from '../../../components/LessonWrapper';
-import '../../../LessonStyle.css';
+import { useTranslation } from 'react-i18next';
+import LessonTemplate from '../../../components/LessonTemplate';
 
 export default function IntroLesson10() {
+  const { i18n } = useTranslation();
+
   return (
-    <LessonWrapper>
-      <h2>Урок 10: <span className="highlight">Ошибки и риски новичков</span></h2>
-
-      <p>
-        Крипта даёт свободу — но вместе с ней приходит <span className="highlight">ответственность</span>. Чтобы не потерять свои средства, важно знать, где новички чаще всего ошибаются.
-      </p>
-
-      <h3>1. Потеря сид-фразы</h3>
-      <p>
-        Самая частая ошибка — записать сид-фразу (seed phrase) в заметки телефона или отправить себе в Telegram. Если кто-то получит к ней доступ — ты потеряешь всё.
-        <br />
-        <b>Правильно:</b> запиши фразу вручную на бумагу и спрячь в безопасном месте.
-      </p>
-
-      <h3>2. Отправка монет не в ту сеть</h3>
-      <p>
-        При выводе с биржи важно выбрать <span className="highlight">нужную сеть</span>. Например, если твой кошелёк работает в Ethereum, не отправляй туда монеты через BSC — они могут исчезнуть.
-      </p>
-
-      <h3>3. Поддельные сайты и фишинг</h3>
-      <p>
-        Злоумышленники часто создают <span className="highlight">копии бирж и кошельков</span>. Всегда проверяй адрес сайта. Используй закладки для доступа к важным платформам.
-      </p>
-
-      <h3>4. Плохие пароли</h3>
-      <p>
-        Пароль от кошелька и биржи должен быть <span className="highlight">сложным</span>. Добавь 2FA (двухфакторную авторизацию), чтобы защитить аккаунт.
-      </p>
-
-      <h3>5. “Сливы” по советам в чатах</h3>
-      <p>
-        Не покупай токены только потому, что кто-то написал в Telegram или YouTube. Всегда проверяй проект, изучай whitepaper и не гонись за “быстрыми иксами”.
-      </p>
-
-      <p className="note">
-        Помни: твоя безопасность — в твоих руках. В крипте нет “отката”. Никто не поможет вернуть монеты, если ты сам их потеряешь. Но если всё делать правильно — система работает на тебя.
-      </p>
-
-      <div className="navigation-buttons">
-        <Link to="/intro/lesson9" className="nav-button">← Назад</Link>
-        <Link to="/intro" className="nav-button">Завершить</Link>
-      </div>
-    </LessonWrapper>
+    <LessonTemplate
+      key={i18n.language}
+      lessonKey="intro_lesson10"
+      prevLink="/intro/lesson9"
+      nextLink="/intro/FinalTestIntro"
+      moduleLink="/intro"
+    />
   );
 }

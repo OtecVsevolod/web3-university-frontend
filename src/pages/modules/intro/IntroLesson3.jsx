@@ -1,43 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../../../LessonStyle.css';
+import { useTranslation } from 'react-i18next';
+import LessonTemplate from '../../../components/LessonTemplate';
 
 export default function IntroLesson3() {
+  const { i18n } = useTranslation();
+
   return (
-    <div className="lesson-container">
-      <h2>Урок 3: <span className="highlight">Зачем нужна криптовалюта?</span></h2>
-
-      <p><span className="highlight">Представь</span>, что деньги — это не только купюры в бумажнике. Это ещё и контроль, зависимость и правила, которые ты не выбирал. Твоя карта может быть заблокирована. Перевод — отменён. Счёт — заморожен.</p>
-
-      <p><span className="highlight">Криптовалюта</span> появилась как альтернатива. Это деньги, которые ты действительно контролируешь сам. Без посредников, банков или разрешений.</p>
-
-      <p><strong>Что решает крипта:</strong></p>
-      <ul>
-        <li><strong>Контроль:</strong> Только ты владеешь своими средствами. Никто не может “удалить” твой баланс.</li>
-        <li><strong>Прозрачность:</strong> Все транзакции открыты и доступны в <span className="highlight">блокчейне</span>. Их нельзя подделать или стереть.</li>
-        <li><strong>Свобода:</strong> Можно отправлять деньги в любую точку мира. Без ограничений, границ и комиссий от банков.</li>
-        <li><strong>Независимость:</strong> Крипта не подчиняется одному государству или системе. Это глобальная сеть.</li>
-      </ul>
-
-      <img src="/images/advantages.png" alt="Преимущества криптовалют" />
-
-      <p><strong>Где это работает уже сейчас:</strong></p>
-      <ul>
-        <li>В странах с высокой инфляцией люди хранят сбережения в крипте.</li>
-        <li>Фрилансеры по всему миру получают оплату в USDT и ETH.</li>
-        <li>Люди пересылают деньги родственникам в обход банков и комиссий.</li>
-        <li>Игроки участвуют в Web3-играх и зарабатывают крипту за действия.</li>
-        <li>Художники продают свои работы как NFT — без галерей и посредников.</li>
-      </ul>
-
-      <p><span className="highlight">Криптовалюта</span> — это не "пузырь" и не "спекуляция". Это новая логика движения ценности. Это инструмент, который делает систему более устойчивой, прозрачной и честной.</p>
-
-      <p>И чем больше ты понимаешь, как она работает — тем меньше зависим от старой системы.</p>
-
-      <div className="navigation-buttons">
-        <Link to="/intro/lesson2" className="nav-button">Назад</Link>
-        <Link to="/intro/lesson4" className="nav-button">Далее</Link>
-      </div>
-    </div>
+    <LessonTemplate
+      key={i18n.language}
+      lessonKey="intro_lesson3"
+      prevLink="/intro/lesson2"
+      nextLink="/intro/lesson4"
+      moduleLink="/intro"
+    />
   );
 }

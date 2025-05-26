@@ -1,128 +1,149 @@
 .lesson-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    color: #f1f1f1;
-    font-family: 'Courier New', monospace;
-    background-color: #1e1e1e;
-    border: 1px solid #444;
-    border-radius: 8px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  p {
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
-  .highlight {
-    color: #f9e038;
-    font-weight: bold;
-  }
-  
-  .navigation-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-  }
-  
-  .nav-button {
-    padding: 10px 20px;
-    border: 1px solid #999;
-    background-color: #2a2a2a;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: 0.3s;
-  }
-  
-  .nav-button:hover {
-    background-color: #444;
-    border-color: #fff;
-  }
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: #f1f1f1;
+  font-family: 'Courier New', monospace;
+  background-color: #1e1e1e;
+  border: 1px solid #444;
+  border-radius: 8px;
+}
 
-  .back-button-wrapper {
-    margin-bottom: 10px;
-  }
-  
-  .back-button {
-    background-color: #444;
-    color: white;
-    padding: 6px 12px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .lesson-container {
-    background-color: #111;
-    color: white;
-    padding: 30px;
-    border-radius: 12px;
-    max-width: 700px;
-    margin: 0 auto;
-  }
-  
-  .lesson-box {
-    border: 1px solid #555;
-    padding: 25px;
-    border-radius: 12px;
-    background-color: #1b1b1b;
-  }
-  
-  .navigation-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
+.lesson-box {
+  border: 1px solid #555;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #1b1b1b;
+}
 
-  .option-button {
-    display: block;
-    width: 100%;
-    margin: 10px 0;
-    padding: 12px 16px;
-    font-size: 16px;
-    background-color: transparent;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    color: white;
-    cursor: pointer;
-    text-align: left;
-    transition: 0.3s;
-  }
-  
-  .option-button:hover {
-    border-color: #00ffaa;
-    background-color: #222;
-  }
-  
-  .option-button.correct {
-    border-color: #00ff88;
-    background-color: #003322;
-  }
-  
-  .option-button.incorrect {
-    border-color: #ff4444;
-    background-color: #330000;
-  }
-  
-  .option-button.disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
-  
-  .lesson.blockchain {
-    background-image: url('/backgrounds/blockchain-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
- 
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #f9e038;
+  font-weight: bold;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  border: 1px solid #999;
+  background-color: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.nav-button:hover {
+  background-color: #444;
+  border-color: #fff;
+}
+
+.option-button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px 16px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.option-button:hover {
+  border-color: #00ffaa;
+  background-color: #222;
+}
+
+.option-button.correct {
+  border-color: #00ff88;
+  background-color: #003322;
+}
+
+.option-button.incorrect {
+  border-color: #ff4444;
+  background-color: #330000;
+}
+
+.option-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.lesson.blockchain {
+  background-image: url('/backgrounds/blockchain-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ================== ВЕРХНИЕ КНОПКИ =================== */
+
+.top-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px auto 30px auto;
+  max-width: 800px;
+  padding: 0 4px;
+}
+
+.top-return-button {
+  background-color: #444;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #888;
+  transition: background 0.2s;
+}
+
+.top-return-button:hover {
+  background-color: #333;
+}
+
+.home-icon-button {
+  background: none;
+  border: none;
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.home-icon-button:hover {
+  background: #333;
+}
+
+.lesson-container a {
+  color: #00ccff;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.lesson-container a:hover {
+  color: #ffaa00;
+}
