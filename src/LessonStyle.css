@@ -147,3 +147,53 @@ p {
 .lesson-container a:hover {
   color: #ffaa00;
 }
+
+.blockchain-background {
+  position: relative;
+  background-image: url('/backgrounds/blockchain-inside-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.blockchain-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(18, 18, 18, 0.862); /* тёмный фильтр поверх */
+  z-index: 1;
+}
+
+.blockchain-background > * {
+  position: relative;
+  z-index: 2;
+}
+
+.lesson-wrapper.ethereum {
+  position: relative;
+  background-image: url('/backgrounds/ethereum-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.lesson-wrapper.ethereum::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(18, 18, 18, 0.262); /* затемнение */
+  z-index: 2;
+}
+
+.lesson-wrapper.ethereum > * {
+  position: relative;
+  z-index: 3; /* чтобы текст был поверх overlay */
+}

@@ -4,20 +4,18 @@ import { Link } from 'react-router-dom';
 import '../LessonStyle.css';
 
 export default function LessonTemplate({ module, lessonKey, prevLink, nextLink, moduleLink }) {
-  const { t } = useTranslation();
-  const lang = t('lang');
+  const namespace = `${module}/lesson`;
+  const { t } = useTranslation(namespace, { useSuspense: false });
+  const { t: tShared } = useTranslation('shared', { useSuspense: false });
 
-  const titleKey = `${lessonKey}_title`;
+  const titleKey = `${module}_${lessonKey}_title`;
 
-  // Генерация параграфов до тех пор, пока ключ существует
   const generateParagraphKeys = () => {
     const keys = [];
-    let index = 1;
-    let key = `${lessonKey}_paragraph${index}`;
-    while (t(key, { defaultValue: '' }) !== '') {
-      keys.push(key);
-      index++;
-      key = `${lessonKey}_paragraph${index}`;
+    let i = 1;
+    while (t(`${module}_${lessonKey}_paragraph${i}`, { defaultValue: '' }) !== '') {
+      keys.push(`${module}_${lessonKey}_paragraph${i}`);
+      i++;
     }
     return keys;
   };
@@ -27,41 +25,28 @@ export default function LessonTemplate({ module, lessonKey, prevLink, nextLink, 
   return (
     <>
       <div className="top-buttons">
-        <Link to={moduleLink} className="top-return-button">Вернуться</Link>
-        <Link to="/" className="home-icon-button" title="На главную">
-          <span role="img" aria-label="home">🏠</span>
+        <Link to={moduleLink} className="top-return-button">
+          {tShared('back_to_module')}
         </Link>
+        <Link to="/" className="home-icon-button" title="На главную">🏠</Link>
       </div>
 
-      <div className="lesson-container">
+      <div className={`lesson-container ${module}-background`}>
         <h2>
-          <Trans
-            i18nKey={titleKey}
-            components={{
-              highlight: <span className="highlight" />,
-              a: <a target="_blank" rel="noopener noreferrer" />
-            }}
-          />
+          <Trans i18nKey={titleKey} ns={namespace} components={{ highlight: <span className="highlight" /> }} />
         </h2>
 
         {paragraphKeys.map((key) => (
           <p key={key}>
-            <Trans
-              i18nKey={key}
-              components={{
-                highlight: <span className="highlight" />,
-                a: <a target="_blank" rel="noopener noreferrer" />
-              }}
-            />
+            <Trans i18nKey={key} ns={namespace} components={{ highlight: <span className="highlight" />, a: <a target="_blank" rel="noopener noreferrer" /> }} />
           </p>
         ))}
 
         <div className="navigation-buttons">
-          <Link to={prevLink} className="nav-button">{t('back_button')}</Link>
-          <Link to={nextLink} className="nav-button">{t('next_button')}</Link>
+          <Link to={prevLink} className="nav-button">{tShared('back_button')}</Link>
+          <Link to={nextLink} className="nav-button">{tShared('next_button')}</Link>
         </div>
       </div>
     </>
   );
 }
-

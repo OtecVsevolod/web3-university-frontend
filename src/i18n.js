@@ -3,23 +3,23 @@ import { initReactI18next } from 'react-i18next';
 import HttpBackend from 'i18next-http-backend';
 
 i18n
-  .use(HttpBackend) // Подключаем загрузку переводов с сервера
   .use(initReactI18next)
+  .use(HttpBackend)
   .init({
-    fallbackLng: 'ru', // Язык по умолчанию
-    debug: true, // Можно выключить в продакшене
+    fallbackLng: 'ru',
+    debug: true,
 
-    ns: ['intro/lesson1'], // Можешь указывать любые доступные namespace (имя JSON-файла без расширения)
-    defaultNS: 'intro/lesson1', // Основной namespace по умолчанию
-
-    backend: {
-      // Путь до файлов переводов
-      loadPath: '/locales/{{lng}}/{{ns}}.json'
-    },
+    // Никакие namespaces вручную не прописываем, всё загружается динамически
+    ns: [],
+    defaultNS: false,
 
     interpolation: {
-      escapeValue: false // HTML-теги типа <highlight> будут работать
-    }
+      escapeValue: false, // поддержка HTML-тегов
+    },
+
+    backend: {
+      loadPath: '/locales/{{lng}}/{{ns}}.json', // путь к JSON-файлам
+    },
   });
 
 export default i18n;

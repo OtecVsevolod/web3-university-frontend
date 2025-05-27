@@ -1,12 +1,14 @@
 import React from 'react';
-import LessonWrapper from '../../../components/LessonWrapper';
-import { useTranslation } from 'react-i18next';
+import LessonTemplate from '../../../components/LessonTemplate';
 
 export default function BlockLesson5() {
-  const { t } = useTranslation();
   return (
-    <LessonWrapper title={t('block_lesson5_title')} background="blockchain">
-      <p>{t('block_lesson5_text')}</p>
-    </LessonWrapper>
+    <LessonTemplate
+      module="blockchain"
+      lessonKey="lesson5"
+      prevLink="/blockchain/lesson4"
+      nextLink="/blockchain/lesson6"
+      moduleLink="/blockchain"
+    />
   );
 }
