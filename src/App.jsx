@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './i18n';
 import LanguageSelector from './components/LanguageSelector';
+import ScrollToTop from './components/ScrollToTop';
 
 // Главные страницы
 import Dashboard from './pages/Dashboard';
@@ -51,6 +52,7 @@ import FinalTestEthereum from './pages/modules/ethereum/FinalTestEthereum';
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <LanguageSelector />
 
