@@ -163,6 +163,11 @@ const FinalTestIntro = () => {
     <LessonWrapper>
       {!showResult ? (
         <>
+            <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "20px" }}>
+              <Link to="/intro" className="nav-button">← Вернуться</Link>
+              <Link to="/" className="nav-button">🏠</Link>
+            </div>
+        
           <h2 className="highlight">Вопрос {step + 1} из {questions.length}</h2>
           <p style={{ fontWeight: 'bold' }}>{current.question}</p>
 

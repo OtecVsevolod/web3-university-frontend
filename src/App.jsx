@@ -49,6 +49,21 @@ import Lesson9 from './pages/modules/ethereum/lesson9';
 import Lesson10 from './pages/modules/ethereum/lesson10';
 import FinalTestEthereum from './pages/modules/ethereum/FinalTestEthereum';
 
+// ✅ Модуль 4: Основы Web3 / DeFi
+import Web3DeFiModule from './pages/modules/web3defi/Web3DeFiModule';
+import FinalTestWeb3DeFi from './pages/modules/web3defi/FinalTestWeb3DeFi';
+import Web3Lesson1 from './pages/modules/web3defi/lesson1';
+import Web3Lesson2 from './pages/modules/web3defi/lesson2';
+import Web3Lesson3 from './pages/modules/web3defi/lesson3';
+import Web3Lesson4 from './pages/modules/web3defi/lesson4';
+import Web3Lesson5 from './pages/modules/web3defi/lesson5';
+import Web3Lesson6 from './pages/modules/web3defi/lesson6';
+import Web3Lesson7 from './pages/modules/web3defi/lesson7';
+import Web3Lesson8 from './pages/modules/web3defi/lesson8';
+import Web3Lesson9 from './pages/modules/web3defi/lesson9';
+import Web3Lesson10 from './pages/modules/web3defi/lesson10';
+
+
 export default function App() {
   return (
     <Router>
@@ -100,7 +115,21 @@ export default function App() {
           <Route path="/modules/ethereum/lesson8" element={<Lesson8 />} />
           <Route path="/modules/ethereum/lesson9" element={<Lesson9 />} />
           <Route path="/modules/ethereum/lesson10" element={<Lesson10 />} />
-          <Route path="/modules/ethereum/FinalTestEthereum" element={<FinalTestEthereum />} />
+          <Route path="/modules/ethereum/finaltest" element={<FinalTestEthereum />} />
+
+          {/* ✅ Модуль:Основы Web3 / DeFi */}
+          <Route path="/modules/web3defi" element={<Web3DeFiModule />} />
+          <Route path="/web3defi/lesson1" element={<Web3Lesson1 />} />
+          <Route path="/web3defi/lesson2" element={<Web3Lesson2 />} />
+          <Route path="/web3defi/lesson3" element={<Web3Lesson3 />} />
+          <Route path="/web3defi/lesson4" element={<Web3Lesson4 />} />
+          <Route path="/web3defi/lesson5" element={<Web3Lesson5 />} />
+          <Route path="/web3defi/lesson6" element={<Web3Lesson6 />} />
+          <Route path="/web3defi/lesson7" element={<Web3Lesson7 />} />
+          <Route path="/web3defi/lesson8" element={<Web3Lesson8 />} />
+          <Route path="/web3defi/lesson9" element={<Web3Lesson9 />} />
+          <Route path="/web3defi/lesson10" element={<Web3Lesson10 />} />
+          <Route path="/web3defi/final-test" element={<FinalTestWeb3DeFi />} />
         </Routes>
       </div>
     </Router>

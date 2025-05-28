@@ -7,6 +7,10 @@ export default function BlockModule() {
     <div className="dashboard-container">
       <h1 className="dashboard-title">Основы блокчейна и BTC</h1>
 
+         <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "20px" }}>
+           <Link to="/" className="nav-button">← Назад</Link>
+            </div>
+
       <div className="dashboard-menu">
         <Link to="/blockchain/lesson1" className="dashboard-button">Урок 1: Что такое блокчейн</Link>
         <Link to="/blockchain/lesson2" className="dashboard-button">Урок 2: Как работают блоки</Link>
@@ -21,10 +25,7 @@ export default function BlockModule() {
         <div className="dashboard-xp">...</div>
       </div>
 
-      {/* Кнопка возврата на главную */}
-            <div style={{ marginTop: '40px', textAlign: 'center' }}>
-              <Link to="/" className="dashboard-button">← Назад на главную</Link>
-            </div>
+
     </div>
   );
 }

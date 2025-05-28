@@ -11,7 +11,7 @@ export default function Dashboard() {
         <Link to="/intro" className="dashboard-button">Введение в крипту</Link>
         <Link to="/blockchain" className="dashboard-button">Основы блокчейна и BTC</Link>
         <Link to="/modules/ethereum" className="dashboard-button">ETH / смарт-контракты</Link> {/* ← исправлено */}
-        <Link to="/web3defi" className="dashboard-button">Основы Web3 / DeFi</Link>
+        <Link to="/modules/web3defi" className="dashboard-button">Основы Web3 / DeFi</Link>
         <Link to="/tokenization" className="dashboard-button">Токенизация / RWA / CBDC</Link>
         <Link to="/strategies" className="dashboard-button">Стратегии заработка</Link>
         <Link to="/zk" className="dashboard-button">ZK (нулевое разглашение)</Link>

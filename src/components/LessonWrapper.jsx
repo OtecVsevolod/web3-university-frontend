@@ -7,9 +7,7 @@ function LessonWrapper({ children }) {
 
   return (
     <div className="lesson-wrapper">
-      <button className="back-button" onClick={() => navigate('/intro')}>
-        Вернуться
-      </button>
+
       <div className="lesson-content">
         {children}
       </div>

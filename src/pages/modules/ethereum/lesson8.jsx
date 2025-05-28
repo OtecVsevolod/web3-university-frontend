@@ -1,14 +1,14 @@
 import React from 'react';
-import LessonWrapper from '../../../components/LessonWrapper';
+import LessonTemplate from '../../../components/LessonTemplate';
 
-export default function lesson8() {
+export default function EthereumLesson8() {
   return (
-    <LessonWrapper
-      title="Урок 8"
-      prevLink=""
-      nextLink=""
-    >
-      <p>Содержимое урока появится здесь.</p>
-    </LessonWrapper>
+    <LessonTemplate
+      module="ethereum"
+      lessonKey="lesson8"
+      prevLink="/modules/ethereum/lesson7"
+      nextLink="/modules/ethereum/lesson9"
+      moduleLink="/modules/ethereum"
+    />
   );
 }

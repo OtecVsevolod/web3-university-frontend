@@ -9,6 +9,10 @@ export default function IntroModule() {
     <div className="dashboard-container">
       <h1 className="dashboard-title">Введение в крипту</h1>
 
+   <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "20px" }}>
+     <Link to="/" className="nav-button">← Назад</Link>
+      </div>
+      
       <div className="dashboard-menu">
         <Link to="/intro/lesson1" className="dashboard-button">Урок 1: Что такое криптовалюта?</Link>
         <Link to="/intro/lesson2" className="dashboard-button">Урок 2: Что такое блокчейн?</Link>
@@ -24,10 +28,7 @@ export default function IntroModule() {
         <div className="dashboard-xp">...</div>
       </div>
 
-      {/* Кнопка возврата на главную */}
-      <div style={{ marginTop: '40px', textAlign: 'center' }}>
-        <Link to="/" className="dashboard-button">← Назад на главную</Link>
-      </div>
+      
     </div>
   );
 }
