@@ -29,8 +29,7 @@
   "intro_lesson4_paragraph6": "All this happens without banks, in <highlight>seconds or minutes</highlight>, depending on the cryptocurrency.",
   "intro_lesson4_paragraph7": "Main steps:\n— You create a transaction (e.g., send 0.1 BTC to a friend)\n— The network checks if you can do it\n— The transaction is added to a block\n— The block is added to the blockchain\n— Your friend receives the money. No middlemen.",
 
-  "back_button": "Back",
-  "next_button": "Next",
+
   "intro_lesson5_title": "Lesson 5: <highlight>Wallets and Storage</highlight>",
   "intro_lesson5_paragraph1": "<highlight>Crypto wallet</highlight> is like your personal safe in the crypto world. It doesn’t store the money itself, but stores keys that give access to your funds on the blockchain.",
   "intro_lesson5_paragraph2": "There are two keys: <highlight>public</highlight> and <highlight>private</highlight>.",

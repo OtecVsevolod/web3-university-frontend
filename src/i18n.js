@@ -9,9 +9,9 @@ i18n
     fallbackLng: 'ru',
     debug: true,
 
-    // Никакие namespaces вручную не прописываем, всё загружается динамически
-    ns: [],
-    defaultNS: false,
+    // Добавляем shared как namespace по умолчанию
+    ns: ['shared'],
+    defaultNS: 'shared',
 
     interpolation: {
       escapeValue: false, // поддержка HTML-тегов
