@@ -1,0 +1,183 @@
+
+.home-container {
+  position: relative;
+  min-height: 100vh;
+  background-image: url('/backgrounds/tytulka.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'Lucida Console', 'Courier New', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+.home-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 0;
+}
+
+.home-inner,
+.home-slogan,
+.home-section,
+.center-button-row,
+.bottom-button-row,
+.support-button-container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Заголовок платформы */
+.home-title {
+  font-size: 3.2rem;
+  color: #00ffff;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+/* Неоновый розовый контур */
+.neon-sign-wrapper {
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0;
+  background: transparent;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  z-index: 3;
+}
+
+.neon-sign-text {
+    font-family: 'Lucida Console', monospace;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+  
+    color: rgba(255, 255, 255, 0); /* полностью прозрачный текст */
+    background: none;
+  
+    -webkit-text-fill-color: transparent;         /* убираем заливку */
+    -webkit-text-stroke: 1px #ff83c1;             /* контур */
+    text-shadow:
+      0 0 6px #ff83c1,
+      0 0 12px #ff83c1;
+  
+    display: inline-block;
+    padding: 14px 18px;
+    border: 1px solid #ff83c1;
+    border-radius: 8px;
+    box-shadow:
+      0 0 5px #ff83c1,
+      0 0 10px #ff83c1;
+  }
+  
+  
+  
+  
+
+/* Цепочка сверху — как в барной вывеске */
+.neon-sign-wrapper::before {
+  content: '';
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 22px;
+  background: #888;
+  box-shadow: 0 0 2px #aaa;
+}
+
+/* Подзаголовки */
+.neon-blue {
+  color: #00ccff;
+  font-weight: 600;
+}
+
+.neon-cyan {
+  color: #00ffff;
+  font-weight: 600;
+}
+
+.home-section {
+  margin-bottom: 30px;
+  max-width: 700px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.path-list li,
+.how-list li {
+  margin: 6px 0;
+}
+
+/* Кнопка “Начать обучение” */
+.center-button-row {
+  margin: 30px 0;
+}
+
+.start-button {
+  background-color: transparent;
+  color: #ff85c1;
+  border: 1px solid #ff85c1;
+  padding: 14px 36px;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #ff85c1;
+  color: black;
+}
+
+/* Кнопки ниже */
+.bottom-button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.secondary-button {
+  background-color: transparent;
+  border: 1.5px solid #ff85c1;
+  color: #ff85c1;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.secondary-button:hover {
+  background-color: #ff85c1;
+  color: black;
+}
+
+/* Кнопка поддержки */
+.support-button-container {
+  margin-bottom: 40px;
+}
+
+.support-button {
+  font-size: 1rem;
+  color: #00ccff;
+  text-decoration: underline;
+  transition: 0.2s ease;
+}
+
+.support-button:hover {
+  color: #ffffff;
+}

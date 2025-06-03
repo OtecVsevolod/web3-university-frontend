@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage'; // если у тебя папка `pages`
 import './i18n';
 import LanguageSelector from './components/LanguageSelector';
 import ScrollToTop from './components/ScrollToTop';
@@ -73,7 +74,7 @@ export default function App() {
 
         <Routes>
           {/* Главные страницы */}
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
 
           {/* Модуль: Введение в крипту */}
@@ -130,6 +131,7 @@ export default function App() {
           <Route path="/web3defi/lesson9" element={<Web3Lesson9 />} />
           <Route path="/web3defi/lesson10" element={<Web3Lesson10 />} />
           <Route path="/web3defi/final-test" element={<FinalTestWeb3DeFi />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </div>
     </Router>

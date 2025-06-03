@@ -60,5 +60,29 @@
   "shared_web3defi_test": "🧠 Финальный тест",
   "shared_return_button": "Вернуться",
   "shared_back_button_alt": "Назад",
-  "shared_next_button_alt": "Далее"
+  "shared_next_button_alt": "Далее",
+  
+    "shared_home_manifest": "Это мост в мир свободы, крипты, децентрализации, финансовой грамотности. Здесь учат понимать, зарабатывать, удерживать и приумножать!",
+    "shared_home_path_title": "ТВОЙ ПУТЬ В WEB3:",
+    "shared_home_path1": " ИНВЕСТИРУЕМ WEB3 [100%]",
+    "shared_home_path2": " ETHEREUM & КОНТРАКТЫ",
+    "shared_home_path3": "✅ DEFI / WEB3 [3/10]",
+    "shared_home_path4": "✅ БЛОКЧЕЙН / BTC",
+    "shared_home_path5": "⚠️ AIRDROP / ZK / TRADING (скоро)",
+  
+    "shared_home_system_title": "КАК РАБОТАЕТ СИСТЕМА:",
+    "shared_home_system1": "→ ПРОХОДИШЬ УРОКИ → <highlight>ПОЛУЧАЕШЬ XP и NFT</highlight>",
+    "shared_home_system2": "→ КАЖДОЕ ЗНАНИЕ = 🧱 БЛОК В ЦЕПОЧКЕ",
+    "shared_home_system3": "→ NFT = ПОДТВЕРЖДЕНИЕ ТВОЕЙ КВАЛИФИКАЦИИ",
+  
+    "shared_home_final_title": "ДЕЦЕНТРАЛИЗОВАНО И СВОБОДНО",
+    "shared_home_final_subtitle": "Ты не винтик — ты архитектор реальности.",
+  
+    "shared_home_main_cta": "НАЧАТЬ ОБУЧЕНИЕ",
+    "shared_home_button_practice": "ПРАКТИКА",
+    "shared_home_button_allmodules": "ВСЕ МОДУЛИ",
+    "shared_home_button_whitepaper": "ФИЛОСОФИЯ / WHITEPAPER",
+    "shared_home_support_project": "Поддержать проект"
+  
+  
 }
