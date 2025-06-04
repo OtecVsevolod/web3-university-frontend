@@ -66,13 +66,13 @@
   text-align: center;
 
   color: transparent;
-  -webkit-text-stroke: 1px #ff85c2;
+  -webkit-text-stroke: 0.7px #ff85c2;
   background: none;
 
   text-shadow:
-    0 0 10px #ff85c249,
-    0 0 50px #ff85c25b,
-    0 0 100px #ff85c263;
+    0 0 1px #ff85c27a,
+    0 0 5px #ff85c283,
+    0 0 10px #ff85c283;
 
   display: inline-block;
   padding: 14px 18px;
