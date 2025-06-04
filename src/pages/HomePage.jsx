@@ -59,9 +59,7 @@ export default function HomePage() {
               <li>
                 <Trans i18nKey="shared_home_system2" />
               </li>
-              <li>
-                <Trans i18nKey="shared_home_system3" />
-              </li>
+             
             </ul>
           </div>
 

@@ -4,7 +4,7 @@
   min-height: calc(100vh - 40px);
   width: 100%;
   max-width: 100%;
-  background-image: linear-gradient(rgba(167, 133, 133, 0.541), rgba(0, 0, 0, 0.174)), url('/backgrounds/tytulka.png');
+  background-image: linear-gradient(rgba(167, 133, 133, 0.344), rgba(0, 0, 0, 0.174)), url('/backgrounds/tytulka.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,7 +109,7 @@
 }
 
 .home-section {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   max-width: 700px;
   font-size: 1rem;
   line-height: 1.6;
@@ -129,9 +129,9 @@
   background-color: transparent;
   color: #ff85c1;
   border: 1px solid #ff85c1;
-  padding: 14px 36px;
+  padding: 12px 24px;
   font-size: 1rem;
-  border-radius: 12px;
+  border-radius: 5px;
   cursor: pointer;
   transition: 0.3s ease;
 }
@@ -154,8 +154,8 @@
   background-color: transparent;
   border: 1.5px solid #ff85c1;
   color: #ff85c1;
-  padding: 12px 24px;
-  border-radius: 10px;
+  padding: 6px 12px;
+  border-radius: 5px;
   font-size: 0.95rem;
   cursor: pointer;
   transition: 0.2s ease;
@@ -222,24 +222,35 @@
 
 .left-aligned-title {
   text-align: left;
-  margin-left: 12px;
+  margin-left: 1px;
 }
 
 .left-aligned-list {
   text-align: left;
   list-style-type: none;
-  padding-left: 12px;
+  padding-left: 1px;
 }
 
 .clickable-text {
   cursor: pointer;
   color: #ffffff;
   transition: color 0.2s ease;
+  padding: 1px 10px;
+  border: 1px solid #918a31;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ff85c1, 0 0 3px #ff85c1;
+  display: inline-block;
 }
 
 .clickable-text:hover {
   color: #ff85c1;
   text-shadow: 0 0 5px #ff85c1;
+  box-shadow: 0 0 8px #ff85c1, 0 0 15px #ff85c1;
+  border-color: #ff85c1;
 }
 
-
+.how-list {
+  list-style-type: none; /* Убирает маркеры */
+  padding-left: 0;        /* Убирает отступ */
+  margin-left: 0;         /* На всякий случай */
+}
