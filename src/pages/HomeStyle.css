@@ -183,14 +183,30 @@
 }
 
 @media (max-width: 768px) {
-  .home-container {
-    padding: 40px 12px;
-  }
-
   .neon-sign-text {
     font-size: 0.9rem;
-    padding: 12px 14px;
+    padding: 10px 12px;
   }
+  
+  .neon-sign-text {
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    color: transparent;
+    -webkit-text-stroke: 0.8px #ff83c1;
+    text-shadow: 0 0 40px #ff85c1, 0 0 100px #ff85c1, 0 0 200px #ff85c1;
+    background: none;
+    display: inline-block;
+    padding: 12px 16px;
+    border: 1px solid #ff83c1;
+    border-radius: 10px;
+    box-shadow: 0 0 1px #ff83c1, 0 0 5px #ff83c1, 0 0 10px #ff83c1;
+    max-width: 100%;
+    word-wrap: break-word;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
 
   .start-button,
   .secondary-button {
