@@ -59,10 +59,10 @@
 }
 
 .neon-sign-text {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'SF Mono', 'Menlo', 'Courier New', monospace;
   font-size: 1rem;
   font-weight: 1;
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
   text-align: center;
 
   color: transparent;
@@ -70,9 +70,9 @@
   background: none;
 
   text-shadow:
-    0 0 1px #ff85c27a,
-    0 0 5px #ff85c283,
-    0 0 10px #ff85c283;
+    0 0 5px #ff85c2cb,
+    0 0 10px #ff85c2c5,
+    0 0 20px #ff85c2b4;
 
   display: inline-block;
   padding: 14px 18px;
