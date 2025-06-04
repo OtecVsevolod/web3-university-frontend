@@ -12,7 +12,7 @@ export default function HomePage() {
       <div className="home-container">
         <div className="app-wrapper">
           <div className="home-inner">
-            <h1 className="home-title">WEB3 UNIVERSITY</h1>
+            <h1 className="home-title">WEB3/CRYPTO UNIVERSITY</h1>
 
             <div className="neon-sign-wrapper">
               <h2 className="neon-sign-text">

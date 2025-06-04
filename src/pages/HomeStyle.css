@@ -8,7 +8,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: #ffe677;
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
@@ -70,17 +70,17 @@
   background: none;
 
   text-shadow:
-    0 0 40px #ff85c200,
-    0 0 100px #ff85c200,
-    0 0 200px #ff85c200;
+    0 0 40px #ff85c2bb,
+    0 0 100px #ff85c2c7,
+    0 0 200px #ff85c2d5;
 
   display: inline-block;
   padding: 14px 18px;
-  border: 1px solid #ff85c227;
+  border: 1px solid #ff85c2c2;
   border-radius: 10px;
   box-shadow:
-    0 0 1px #ff85c22c,
-    0 0 5px #ff85c22a,
+    0 0 1px #ff85c2da,
+    0 0 5px #ff85c2ce,
     0 0 10px #ff85c2d7;
 }
 

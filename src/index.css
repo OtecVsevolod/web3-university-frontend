@@ -6,10 +6,10 @@
 }
 
 html, body {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.829), rgba(49, 34, 34, 0.807)), url('/backgrounds/fon.png');
+  background-image:linear-gradient(rgba(0, 0, 0, 0.712), rgba(49, 34, 34, 0.747)), url('/backgrounds/tytulka.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: left ;
   margin: 0;
   padding: 0;
   width: 100%;
