@@ -105,7 +105,7 @@ html, body {
   font-family: 'Courier New', monospace;
   font-size: 22px;
   color: transparent;
-  -webkit-text-stroke: 1px #ff00c8;
+  -webkit-text-stroke: 0.5px #ff00c8;
   text-shadow: 0 0 5px #ff00c8, 0 0 10px #ff00c8, 0 0 20px #ff00c8;
   text-align: center;
 }
@@ -122,7 +122,7 @@ html, body {
     font-size: 13px;
   }
   .neon-outline-pink {
-    font-size: 18px;
+    font-size: 10px;
   }
 }
 
