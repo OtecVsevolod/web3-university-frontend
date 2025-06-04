@@ -1,26 +1,29 @@
 
 .home-container {
   position: relative;
-  min-height: 100vh;
-  background-image: url('/backgrounds/tytulka.png');
+  min-height: calc(100vh - 40px);
+  width: 100%;
+  max-width: 100%;
+  background-image: linear-gradient(rgba(167, 133, 133, 0.021), rgba(0, 0, 0, 0.174)), url('/backgrounds/tytulka.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff;
-  font-family: 'Lucida Console', 'Courier New', monospace;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 60px 20px;
+  padding: 40px 20px 20px;
   text-align: center;
   z-index: 1;
 }
+
 
 .home-container::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.73);
   z-index: 0;
 }
 
@@ -56,33 +59,30 @@
 }
 
 .neon-sign-text {
-    font-family: 'Lucida Console', monospace;
-    font-size: 1.2rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-align: center;
-  
-    color: rgba(255, 255, 255, 0); /* полностью прозрачный текст */
-    background: none;
-  
-    -webkit-text-fill-color: transparent;         /* убираем заливку */
-    -webkit-text-stroke: 1px #ff83c1;             /* контур */
-    text-shadow:
-      0 0 6px #ff83c1,
-      0 0 12px #ff83c1;
-  
-    display: inline-block;
-    padding: 14px 18px;
-    border: 1px solid #ff83c1;
-    border-radius: 8px;
-    box-shadow:
-      0 0 5px #ff83c1,
-      0 0 10px #ff83c1;
-  }
-  
-  
-  
-  
+  font-family: 'Arial', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 1;
+  letter-spacing: 2px;
+  text-align: center;
+
+  color: transparent;
+  -webkit-text-stroke: 0.8px #ff85c1;
+  background: none;
+
+  text-shadow:
+    0 0 40px #ff85c1,
+    0 0 100px #ff85c1,
+    0 0 200px #ff85c1;
+
+  display: inline-block;
+  padding: 14px 18px;
+  border: 1px solid #ff85c1;
+  border-radius: 10px;
+  box-shadow:
+    0 0 1px #ff85c1,
+    0 0 5px #ff85c1,
+    0 0 10px #ff85c1;
+}
 
 /* Цепочка сверху — как в барной вывеске */
 .neon-sign-wrapper::before {
@@ -122,7 +122,7 @@
 
 /* Кнопка “Начать обучение” */
 .center-button-row {
-  margin: 30px 0;
+  margin: 10px 0;
 }
 
 .start-button {
@@ -145,9 +145,9 @@
 .bottom-button-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 10px;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .secondary-button {
@@ -181,3 +181,44 @@
 .support-button:hover {
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 40px 12px;
+  }
+
+  .neon-sign-text {
+    font-size: 0.9rem;
+    padding: 12px 14px;
+  }
+
+  .start-button,
+  .secondary-button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+.left-aligned-title {
+  text-align: left;
+  margin-left: 12px;
+}
+
+.left-aligned-list {
+  text-align: left;
+  list-style-type: none;
+  padding-left: 12px;
+}
+
+.clickable-text {
+  cursor: pointer;
+  color: #ffffff;
+  transition: color 0.2s ease;
+}
+
+.clickable-text:hover {
+  color: #ff85c1;
+  text-shadow: 0 0 5px #ff85c1;
+}
+
+

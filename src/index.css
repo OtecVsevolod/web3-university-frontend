@@ -1,38 +1,50 @@
-/* === index.css или App.css === */
-
-/* Общие стили */
+/* === ОБНУЛЕНИЕ И БАЗОВЫЙ ФОН === */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Основной фон и центрирование */
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #1e1e1e; /* Цвет из твоего референса */
+html, body {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.942), rgba(0, 0, 0, 0.816)), url('/backgrounds/fon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #000000;
+  font-family: 'Courier New', monospace;
+  overflow-x: hidden;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  min-height: 100vh;
+
 }
 
-/* Ограничение ширины содержимого */
+
+/* === ГЛАВНЫЙ КОНТЕЙНЕР === */
 #root {
   width: 100%;
   max-width: 450px;
   padding: 20px;
 }
 
-/* Стиль логотипа */
+/* === СТИЛЬ ЛОГОТИПА === */
 .logo {
   display: block;
   margin: 0 auto 10px auto;
   width: 100px;
+  height: auto;
+  transition: filter 0.3s;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff00ff55);
 }
 
-/* Название */
+/* === ЗАГОЛОВОК === */
 .title {
   text-align: center;
   font-size: 20px;
@@ -40,7 +52,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* Меню-кнопки */
+/* === МЕНЮ-КНОПКИ === */
 .menu {
   display: flex;
   flex-direction: column;
@@ -66,7 +78,7 @@ body {
   border-color: #fff;
 }
 
-/* Индикатор опыта */
+/* === XP ПРОГРЕСС === */
 .xp-container {
   margin-top: 20px;
   color: #fff;
@@ -84,6 +96,33 @@ body {
 .xp-fill {
   height: 100%;
   background-color: #b1cc44;
-  width: 20%; /* заменяется на значение прогресса */
+  width: 20%;
   border-radius: 5px;
 }
+
+/* === НЕОНОВЫЙ РОЗОВЫЙ ТЕКСТ (ПУСТОЙ ВНУТРИ) === */
+.neon-outline-pink {
+  font-family: 'Courier New', monospace;
+  font-size: 22px;
+  color: transparent;
+  -webkit-text-stroke: 1px #ff00c8;
+  text-shadow: 0 0 5px #ff00c8, 0 0 10px #ff00c8, 0 0 20px #ff00c8;
+  text-align: center;
+}
+
+/* === АДАПТИВНОСТЬ === */
+@media (max-width: 500px) {
+  #root {
+    padding: 15px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .menu-button {
+    font-size: 13px;
+  }
+  .neon-outline-pink {
+    font-size: 18px;
+  }
+}
+
