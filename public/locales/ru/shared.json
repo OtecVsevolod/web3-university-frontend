@@ -86,6 +86,10 @@
     "shared_philosophy_button": "Философия / Whitepaper",
     "shared_aboutproject_title": "Философия и структура проекта",
     "shared_aboutproject_philosophy": "Философия проекта",
-    "shared_aboutproject_whitepaper": "Whitepaper проекта"
-    
+    "shared_aboutproject_whitepaper": "Whitepaper проекта",
+    "shared_support_title": "Поддержать проект",
+    "shared_support_description": "Этот университет создаётся одним человеком — без инвесторов, без команды, без копейки бюджета. Только знания, код и вера в свободное образование. Если тебе близка идея — ты можешь поддержать развитие напрямую. Каждая сумма — это кирпич в новую систему.",
+    "shared_support_wallets_title": "Кошельки для поддержки",
+    "shared_support_contacts_title": "Контакты для связи"
+  
   }

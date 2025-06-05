@@ -70,8 +70,8 @@
   background: none;
 
   text-shadow:
-    0 0 1px #ff85c289,
-    0 0 5px #ff85c279,
+    0 0 1px #ff85c29d,
+    0 0 5px #ff85c2a2,
     0 0 10px #ff85c23d;
 
   display: inline-block;
@@ -99,12 +99,12 @@
 
 /* Подзаголовки */
 .neon-blue {
-  color: #00ccff;
+  color: #00ccffd5;
   font-weight: 600;
 }
 
 .neon-cyan {
-  color: #00ffff;
+  color: #00ffffd1;
   font-weight: 600;
 }
 

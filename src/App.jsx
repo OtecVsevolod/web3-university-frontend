@@ -11,6 +11,8 @@ import About from './pages/About';
 import AboutProjectModule from './pages/modules/aboutproject/AboutProjectModule';
 import PhilosophyPage from './pages/modules/aboutproject/PhilosophyPage';
 import WhitepaperPage from './pages/modules/aboutproject/WhitepaperPage';
+import SupportPage from './pages/modules/aboutproject/SupportPage';
+
 
 
 // Модуль 1: Введение в крипту
@@ -83,6 +85,7 @@ export default function App() {
           <Route path="/aboutproject" element={<AboutProjectModule />} />
           <Route path="/modules/aboutproject/philosophy" element={<PhilosophyPage />} />
           <Route path="/modules/aboutproject/whitepaper" element={<WhitepaperPage />} />
+          <Route path="/support" element={<SupportPage />} />
 
           {/* Модуль: Введение в крипту */}
           <Route path="/intro" element={<IntroModule />} />

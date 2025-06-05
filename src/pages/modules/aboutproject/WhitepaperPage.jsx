@@ -8,7 +8,7 @@ export default function WhitepaperPage() {
       module="aboutproject"
       lessonKey="whitepaper"
       prevLink="/modules/aboutproject/philosophy"
-      nextLink="/modules/aboutproject"
+      nextLink="/aboutproject"
       moduleLink="/aboutproject"
     />
   );

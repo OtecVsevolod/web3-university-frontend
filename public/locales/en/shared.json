@@ -82,7 +82,11 @@
     "shared_philosophy_button": "Philosophy / Whitepaper",
     "shared_aboutproject_title": "Project Philosophy and Structure",
     "shared_aboutproject_philosophy": "Project Philosophy",
-    "shared_aboutproject_whitepaper": "Project Whitepaper"
+    "shared_aboutproject_whitepaper": "Project Whitepaper",
+    "shared_support_title": "Support the Project",
+    "shared_support_description": "This project is being built by one person — no investors, no team, no budget. Just belief in the freedom of knowledge and the power of Web3. Any contribution is a step toward decentralized education for the new world.",
+    "shared_support_wallets_title": "Wallets for Support",
+    "shared_support_contacts_title": "Contact Information"
   
 
   }
