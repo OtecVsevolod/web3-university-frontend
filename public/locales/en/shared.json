@@ -60,7 +60,30 @@
     "shared_web3defi_test": "🧠 Final test",
     "shared_return_button": "Return",
     "shared_back_button_alt": "Back",
-    "shared_next_button_alt": "Next"
+    "shared_next_button_alt": "Next",
+    "shared_home_manifest": "This is your bridge to the world of Freedom, Crypto, Decentralization, and Financial Literacy. Here you learn to understand, earn, retain, and grow!",
+    "shared_home_path_title": "YOUR PATH TO WEB3:",
+    "shared_home_path1": " INVESTING IN WEB3 [100%]",
+    "shared_home_path2": " ETHEREUM & CONTRACTS",
+    "shared_home_path3": "✅ DEFI / WEB3 [3/10]",
+    "shared_home_path4": "✅ BLOCKCHAIN / BTC",
+    "shared_home_path5": "⚠️ AIRDROP / ZK / TRADING ...",
+    "shared_home_system_title": "HOW THE SYSTEM WORKS:",
+    "shared_home_system1": "📘 Take lessons → 📚 gain knowledge → 🛠 apply it → 💰 earn → 🧪 pass tests → 🪙 receive NFT and tokens → 🚀 increase XP rating",
+    "shared_home_system2": "→ EACH KNOWLEDGE = 🧱 BLOCK IN THE CHAIN",
+    "shared_home_system3": "→ NFT = PROOF OF YOUR QUALIFICATION",
+    "shared_home_final_title": "DECENTRALIZED AND FREE",
+    "shared_home_final_subtitle": "Here you learn — and get paid!",
+    "shared_home_main_cta": "START LEARNING",
+    "shared_home_button_practice": "PRACTICE",
+    "shared_home_button_allmodules": "ALL MODULES",
+    "shared_home_button_whitepaper": "PHILOSOPHY / WHITEPAPER",
+    "shared_home_support_project": "Support the project",
+    "shared_philosophy_button": "Philosophy / Whitepaper",
+    "shared_aboutproject_title": "Project Philosophy and Structure",
+    "shared_aboutproject_philosophy": "Project Philosophy",
+    "shared_aboutproject_whitepaper": "Project Whitepaper"
+  
 
   }
   

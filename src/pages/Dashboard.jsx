@@ -15,6 +15,11 @@ export default function Dashboard() {
       <h1 className="dashboard-title">
         <Trans i18nKey="shared_web3crypto_university" />
       </h1>
+      <div className="home-icon-button">
+        <Link to="/" className="home-link">
+          🏠
+        </Link>
+      </div>
 
       <div className="dashboard-menu">
         <Link to="/intro" className="dashboard-button">

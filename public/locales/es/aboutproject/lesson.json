@@ -1,0 +1,31 @@
+{
+    "aboutproject_philosophy_title": "Filosofía del proyecto Web3 University",
+    "aboutproject_philosophy_paragraph1": "<highlight>Educación = Libertad</highlight>. Creemos que la verdadera educación no es un servicio ni un producto. Es un camino hacia la libertad. No libertad de algo, sino libertad hacia algo: hacia la acción, la comprensión y una nueva vida. Nuestro proyecto es una plataforma donde el conocimiento se convierte en un arma en la lucha por uno mismo.",
+    "aboutproject_philosophy_paragraph2": "<highlight>Minería del conocimiento</highlight>. Cada lección es un bloque. Cada acción es un paso hacia la libertad. El conocimiento no solo se transmite, se extrae, como una criptomoneda. Lo llamamos minería de significados. No es memorización ni exámenes por cumplir, es la creación de una base propia de entendimiento.",
+    "aboutproject_philosophy_paragraph3": "<highlight>Proof-of-Knowledge > Diplomas</highlight>. Aquí no hay diplomas. Aquí hay NFT: pruebas de que has recorrido el camino. XP representa tu experiencia, tus pasos. Los tokens W3U son tu participación en el sistema. Todo se guarda on-chain y forma tu reputación Web3. Es una alternativa a la esclavitud educativa.",
+    "aboutproject_philosophy_paragraph4": "<highlight>Sin contactos. Sin dinero. Desde cero.</highlight> Puedes empezar desde cero. Sin inversiones. Sin aprobación de 'profesores'. Solo tú y el camino. Es una revolución contra el sistema educativo elitista. Aquí importa la acción, no el origen. La habilidad, no el diploma. El resultado, no el sistema.",
+    "aboutproject_philosophy_paragraph5": "<highlight>Esto es una respuesta al sistema</highlight>. Web3 University es una alternativa filosófica y práctica a la educación estatal. Es un manual de supervivencia en la nueva criptoeconomía. Un entorno donde aprender no es obligación, sino rebelión. Donde cada paso en el conocimiento es un paso hacia la libertad.",
+  
+    "aboutproject_whitepaper_title": "Whitepaper: Tokenómica de Web3 University",
+    "aboutproject_whitepaper_paragraph1": "<highlight>Web3 University Token (W3U)</highlight> es el token interno de la plataforma educativa Web3 University, base de su microeconomía.",
+    "aboutproject_whitepaper_paragraph2": "Se utiliza dentro de la plataforma como moneda y herramienta de recompensa: los estudiantes ganan W3U por completar cursos, tests y quizzes, y los gastan en NFTs, XP, acceso a misiones y nuevos niveles.",
+    "aboutproject_whitepaper_paragraph3": "W3U también se puede intercambiar en exchanges externos (DEX y CEX), monetizando tu conocimiento. Esto forma el modelo <highlight>Learn-to-Earn</highlight>: aprendes — y ganas criptomonedas.",
+    "aboutproject_whitepaper_paragraph4": "Todas las recompensas se otorgan según el modelo <highlight>Proof-of-Knowledge</highlight>: cuanto mejor el resultado, más tokens recibes. La calidad del conocimiento importa.",
+    "aboutproject_whitepaper_paragraph5": "Ejemplo: por una prueba básica — 10 W3U, por el examen final — hasta 50 W3U. Cálculo: Recompensa = Rbase × (Puntuación / 100).",
+    "aboutproject_whitepaper_paragraph6": "Sistema de referidos: si invitas a un amigo y aprueba la prueba, recibes una recompensa (por ejemplo, 20 W3U). Solo por usuarios activos.",
+    "aboutproject_whitepaper_paragraph7": "Nada de recompensas fáciles: sin airdrops, likes ni reposts. Solo esfuerzo — intelectual o social.",
+    "aboutproject_whitepaper_paragraph8": "<highlight>Suministro máximo:</highlight> 100 000 000 W3U. De ellos, el 60% (60 millones) está reservado para recompensas y se liberará mediante contrato inteligente con mecanismo de halving.",
+    "aboutproject_whitepaper_paragraph9": "Ejemplo de halving: primer año — 30 millones de W3U, segundo — 15 millones, tercero — 7.5 millones, etc. Cada 10 000 bloques/usuarios — reducción de recompensas.",
+    "aboutproject_whitepaper_paragraph10": "El 40% restante se distribuye así: 15% — al equipo (con 4 años de vesting), 15% — a inversores (con bloqueo), 10% — al tesoro DAO.",
+    "aboutproject_whitepaper_paragraph11": "DAO (gobernanza descentralizada) recibe el 30% de todas las nuevas recompensas. Participar en el DAO es posible con el token <highlight>gW3U</highlight>, obtenido al hacer staking de W3U.",
+    "aboutproject_whitepaper_paragraph12": "gW3U no se puede vender — solo da derecho a voto. Esto protege contra especuladores y asegura una gobernanza justa: quienes aprenden y hacen staking, influyen.",
+    "aboutproject_whitepaper_paragraph13": "Sistema de XP y NFT: cada módulo = bloque de conocimiento. Al completarlo, recibes un NFT-certificado, XP y tokens. Todo queda registrado on-chain.",
+    "aboutproject_whitepaper_paragraph14": "El XP es necesario para progresar, los tokens para actuar, los NFTs para el estatus y comprobación del conocimiento. Todo está conectado en una economía de crecimiento.",
+    "aboutproject_whitepaper_paragraph15": "<highlight>Objetivo:</highlight> crear una economía del conocimiento sostenible, descentralizada y auto-recompensada. Donde cada paso en el aprendizaje = contribución al sistema.",
+    "aboutproject_whitepaper_paragraph16": "Al finalizar la emisión, el DAO podrá redistribuir o quemar tokens no utilizados, y lanzar nuevas mecánicas (como recompra en el mercado).",
+    "aboutproject_whitepaper_paragraph17": "Web3 University no es solo EdTech. Es una plataforma donde el conocimiento = activo, diploma = NFT, influencia = gW3U, y la libertad llega a través de la autoeducación.",
+    "aboutproject_whitepaper_paragraph18": "Cada moneda emitida por conocimiento es capital. Cada usuario que completa un curso es un bloque en la cadena de educación descentralizada del nuevo mundo.",
+    "aboutproject_aboutproject_philosophy": "Filosofía del proyecto",
+    "aboutproject_aboutproject_whitepaper": "Whitepaper del proyecto"
+  }
+  

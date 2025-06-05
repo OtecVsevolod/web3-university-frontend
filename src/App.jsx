@@ -8,6 +8,10 @@ import ScrollToTop from './components/ScrollToTop';
 // Главные страницы
 import Dashboard from './pages/Dashboard';
 import About from './pages/About';
+import AboutProjectModule from './pages/modules/aboutproject/AboutProjectModule';
+import PhilosophyPage from './pages/modules/aboutproject/PhilosophyPage';
+import WhitepaperPage from './pages/modules/aboutproject/WhitepaperPage';
+
 
 // Модуль 1: Введение в крипту
 import IntroModule from './pages/modules/intro/IntroModule';
@@ -76,6 +80,9 @@ export default function App() {
           {/* Главные страницы */}
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
+          <Route path="/aboutproject" element={<AboutProjectModule />} />
+          <Route path="/modules/aboutproject/philosophy" element={<PhilosophyPage />} />
+          <Route path="/modules/aboutproject/whitepaper" element={<WhitepaperPage />} />
 
           {/* Модуль: Введение в крипту */}
           <Route path="/intro" element={<IntroModule />} />
