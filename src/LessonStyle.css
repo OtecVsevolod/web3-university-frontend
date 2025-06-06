@@ -4,8 +4,8 @@
   padding: 40px 20px;
   color: #f1f1f1;
   font-family: 'Courier New', monospace;
-  background-color: #1e1e1e;
-  border: 1px solid #444;
+  background-color: #18282b00;
+  border: 0px solid #444;
   border-radius: 8px;
 }
 
@@ -13,7 +13,7 @@
   border: 1px solid #555;
   padding: 25px;
   border-radius: 12px;
-  background-color: #1b1b1b;
+  background-color: #1b1b1bfe;
 }
 
 h2 {
