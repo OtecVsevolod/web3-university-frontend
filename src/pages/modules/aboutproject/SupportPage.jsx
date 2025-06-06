@@ -30,6 +30,11 @@ export default function SupportPage() {
             <code>0xA84B05ccD2f91F3949C571319d98881D365460c2</code>
           </div>
           <div className="wallet-card">
+            <h3>Toncoin(TON)</h3>
+            <img src="/images/qr-ton.jpg" alt="BTC QR" />
+            <code>UQCqqB6kFJUjaBqaddDnX8F6Pup3TvL484heMBKN1oHtSIvw</code>
+          </div>
+          <div className="wallet-card">
             <h3>Bitcoin (BTC)</h3>
             <img src="/images/qr-btc.jpg" alt="BTC QR" />
             <code>bc1q7gz3szzp2gh285h2rk43rx58gnfcynvgawekf0</code>
@@ -45,9 +50,9 @@ export default function SupportPage() {
       <div className="support-contacts">
         <h2><Trans i18nKey="shared_support_contacts_title" /></h2>
         <ul>
-          <li>📩 Email: <a href="aaaseva68@gmail.com" target="_blank">aaaseva68@gmail.com</a></li>
-          <li>📱 Telegram: <a href="https://t.me/Otec_Vsevolod" target="_blank">https://t.me/Otec_Vsevolod</a></li>
-          <li>📸 Instagram: <a href="https://www.instagram.com/seva_detochka?igsh=MWhwb2Npa2Z3emtqeg%3D%3D&utm_source=qr" target="_blank">https://www.instagram.com/seva_detochka?igsh=MWhwb2Npa2Z3emtqeg%3D%3D&utm_source=qr</a></li>
+          <li>📩 Email: <a href="aaaseva68@gmail.com" target="_blank">Vsevolod</a></li>
+          <li>📱 Telegram: <a href="https://t.me/Otec_Vsevolod" target="_blank">Otec_Vsevolod</a></li>
+          <li>📸 Instagram: <a href="https://www.instagram.com/seva_detochka?igsh=MWhwb2Npa2Z3emtqeg%3D%3D&utm_source=qr" target="_blank">Seva_Detochka</a></li>
           <li>🐦 Twitter: <a href="https://twitter.com/your_twitter" target="_blank">@your_twitter</a></li>
           <li>💻 GitHub: <a href="https://github.com/your_github" target="_blank">@your_github</a></li>
         </ul>
