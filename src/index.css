@@ -6,7 +6,7 @@
 }
 
 html, body {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.712), rgba(49, 34, 34, 0.747)), url('/backgrounds/tytulka.png');
+  background-image:linear-gradient(rgba(167, 133, 133, 0.144), rgb(0, 0, 0)), url('/backgrounds/tytulka.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left ;
@@ -17,7 +17,7 @@ html, body {
   background-color: #000000;
   font-family: 'Courier New', monospace;
   overflow-x: hidden;
-  color: #ffffff;
+  color: #ffffff75;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -29,7 +29,7 @@ html, body {
 #root {
   width: 100%;
   max-width: 450px;
-  padding: 20px;
+  padding: 12px;
 }
 
 /* === СТИЛЬ ЛОГОТИПА === */
