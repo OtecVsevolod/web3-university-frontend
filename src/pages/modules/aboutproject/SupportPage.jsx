@@ -19,6 +19,11 @@ export default function SupportPage() {
       <div className="wallet-section">
         <h2><Trans i18nKey="shared_support_wallets_title" /></h2>
         <div className="wallets">
+        <div className="wallet-card">
+            <h3>USDT (Tron)</h3>
+            <img src="/images/qr-trx.jpg" alt="USDT QR" />
+            <code>TBYNyNWjAf1JKLugRkRUthLr2YmM5BHCtA</code>
+          </div>
           <div className="wallet-card">
             <h3>USDT (BEP20)</h3>
             <img src="/images/qr-usdt.jpg" alt="USDT QR" />
