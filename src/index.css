@@ -28,8 +28,8 @@ html, body {
 /* === ГЛАВНЫЙ КОНТЕЙНЕР === */
 #root {
   width: 100%;
-  max-width: 450px;
-  padding: 12px;
+  max-width: 480px;
+  padding: 20px;
 }
 
 /* === СТИЛЬ ЛОГОТИПА === */
