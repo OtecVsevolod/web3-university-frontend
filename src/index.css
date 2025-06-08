@@ -6,10 +6,9 @@
 }
 
 html, body {
-  background-image: linear-gradient(rgba(167, 133, 133, 0.144), rgb(0, 0, 0)), url('/backgrounds/tytulka.png');
-  background-size: cover;
+  background-image: linear-gradient(rgba(17, 16, 16, 0.863), rgba(0, 0, 0, 0.541)), url('/backgrounds/tytulka.jpg');
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center top;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -21,6 +20,19 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+
+/* Адаптация */
+@media (min-aspect-ratio: 3/4) {
+  html, body {
+    background-size: cover;
+  }
+}
+
+@media (max-aspect-ratio: 3/4) {
+  html, body {
+    background-size: contain;
+  }
 }
 
 /* === ГЛАВНЫЙ КОНТЕЙНЕР === */
