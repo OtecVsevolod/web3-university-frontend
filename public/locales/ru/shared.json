@@ -64,7 +64,7 @@
   
     "shared_home_manifest": "Это твой мост в мир: Свободы, Крипты, Децентрализации и Финансовой грамотности. Здесь учат - понимать, зарабатывать, удерживать и приумножать!",
     "shared_home_path_title": "ТВОЙ ПУТЬ В WEB3:",
-    "shared_home_path1": " ИНВЕСТИРУЕМ WEB3 [100%]",
+    "shared_home_path1": "МЫШЛЕНИЕ vs ВЕЗЕНИЕ",
     "shared_home_path2": " ETHEREUM & КОНТРАКТЫ",
     "shared_home_path3": "✅ DEFI / WEB3 [3/10]",
     "shared_home_path4": "✅ БЛОКЧЕЙН / BTC",
@@ -120,5 +120,4 @@
     "shared_result_fail": "Вы не прошли тест. Попробуйте ещё раз!",
     "shared_result_success": "Поздравляем! Вы успешно прошли тест!"
 
-  
   }

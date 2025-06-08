@@ -1,10 +1,8 @@
-
 .home-container {
   position: relative;
   min-height: calc(100vh - 40px);
   width: 100%;
   max-width: 100%;
-  background-image: linear-gradient(rgba(167, 133, 133, 0.432), rgba(0, 0, 0, 0.199)), url('/backgrounds/tytulka.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,12 +16,10 @@
   z-index: 1;
 }
 
-
 .home-container::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.623);
   z-index: 0;
 }
 
@@ -37,7 +33,6 @@
   z-index: 1;
 }
 
-/* Заголовок платформы */
 .home-title {
   font-size: 3.2rem;
   color: #00ffff;
@@ -45,35 +40,27 @@
   letter-spacing: 3px;
 }
 
-/* Неоновый розовый контур */
 .neon-sign-wrapper {
-  position: relative;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 0;
-  background: transparent;
   position: relative;
   margin-top: 10px;
   margin-bottom: 15px;
+  background: transparent;
   z-index: 3;
 }
 
 .neon-sign-text {
   font-family: 'SF Mono', 'Menlo', 'Courier New', monospace;
   font-size: 1rem;
-  font-weight: 1;
+  font-weight: normal;
   letter-spacing: 1.2px;
   text-align: center;
-
   color: transparent;
   -webkit-text-stroke: 1.2px #ff85c2;
   background: none;
-
   text-shadow:
     0 0 1px #ff85c21a,
     0 0 5px #ff85c222,
     0 0 10px #ff85c224;
-
   display: inline-block;
   padding: 14px 18px;
   border: 0.3px solid #ff85c2c2;
@@ -84,7 +71,6 @@
     0 0 10px #ff85c2d7;
 }
 
-/* Цепочка сверху — как в барной вывеске */
 .neon-sign-wrapper::before {
   content: '';
   position: absolute;
@@ -97,7 +83,6 @@
   box-shadow: 0 0 2px #aaa;
 }
 
-/* Подзаголовки */
 .neon-blue {
   color: #00ccffd5;
   font-weight: 600;
@@ -120,7 +105,6 @@
   margin: 6px 0;
 }
 
-/* Кнопка “Начать обучение” */
 .center-button-row {
   margin: 10px 0;
 }
@@ -141,7 +125,6 @@
   color: black;
 }
 
-/* Кнопки ниже */
 .bottom-button-row {
   display: flex;
   flex-wrap: wrap;
@@ -166,7 +149,6 @@
   color: black;
 }
 
-/* Кнопка поддержки */
 .support-button-container {
   margin-bottom: 40px;
 }
@@ -184,8 +166,8 @@
 
 @media (max-width: 768px) {
   .neon-sign-text {
-    font-size: 0.8rem;
-    padding: 10px 10px;
+    font-size: 0.9rem;
+    padding: 12px 14px;
     max-width: 90%;
     width: 90%;
     margin: 0 auto;
@@ -203,15 +185,7 @@
 
   .home-container {
     padding: 20px 10px;
-  
-}
-
-
-  .neon-sign-text {
-    font-size: 0.9rem;
-    padding: 12px 14px;
   }
-
 
   .start-button,
   .secondary-button {
@@ -250,7 +224,7 @@
 }
 
 .how-list {
-  list-style-type: none; /* Убирает маркеры */
-  padding-left: 0;        /* Убирает отступ */
-  margin-left: 0;         /* На всякий случай */
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
 }

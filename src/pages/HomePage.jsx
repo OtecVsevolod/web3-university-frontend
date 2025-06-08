@@ -29,7 +29,7 @@ export default function HomePage() {
               {t('shared_home_path_title')}
             </h3>
             <ul className="path-list left-aligned-list">
-              <li onClick={() => navigate('/intro')} className="clickable-text">
+              <li onClick={() => navigate('/mindset')} className="clickable-text">
                 {t('shared_home_path1')}
               </li>
               <li onClick={() => navigate('/modules/ethereum')} className="clickable-text">
@@ -41,8 +41,8 @@ export default function HomePage() {
               <li onClick={() => navigate('/blockchain')} className="clickable-text">
                 {t('shared_home_path4')}
               </li>
-              <li onClick={() => navigate('/airdrop')} className="clickable-text">
-                {t('shared_home_path5')}
+              <li onClick={() => navigate('/token')} className="clickable-text">
+                {t('shared_token_module')}
               </li>
             </ul>
           </div>
@@ -59,7 +59,6 @@ export default function HomePage() {
               <li>
                 <Trans i18nKey="shared_home_system2" />
               </li>
-             
             </ul>
           </div>
 
