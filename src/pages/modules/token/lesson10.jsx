@@ -7,7 +7,7 @@ export default function TokenLesson10() {
       module="token"
       lessonKey="lesson10"
       prevLink="/token/lesson9"
-      nextLink="/token/final-test"
+      nextLink="/token/finaltest"
       moduleLink="/token"
     />
   );

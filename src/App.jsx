@@ -13,7 +13,14 @@ import PhilosophyPage from './pages/modules/aboutproject/PhilosophyPage';
 import WhitepaperPage from './pages/modules/aboutproject/WhitepaperPage';
 import SupportPage from './pages/modules/aboutproject/SupportPage';
 
-
+// Модуль 0: Мышление и финансовая грамотность
+import MindsetModule from './pages/modules/mindset/MindsetModule';
+import MindsetLesson1 from './pages/modules/mindset/lesson1';
+import MindsetLesson2 from './pages/modules/mindset/lesson2';
+import MindsetLesson3 from './pages/modules/mindset/lesson3';
+import MindsetLesson4 from './pages/modules/mindset/lesson4';
+import MindsetLesson5 from './pages/modules/mindset/lesson5';
+import FinalTestMindset from './pages/modules/mindset/FinalTestMindset';
 
 // Модуль 1: Введение в крипту
 import IntroModule from './pages/modules/intro/IntroModule';
@@ -104,6 +111,15 @@ export default function App() {
           <Route path="/modules/aboutproject/philosophy" element={<PhilosophyPage />} />
           <Route path="/modules/aboutproject/whitepaper" element={<WhitepaperPage />} />
           <Route path="/support" element={<SupportPage />} />
+
+         {/* Модуль: Мышление и финансовая грамотность */}
+          <Route path="/mindset" element={<MindsetModule />} />
+          <Route path="/mindset/lesson1" element={<MindsetLesson1 />} />
+          <Route path="/mindset/lesson2" element={<MindsetLesson2 />} />
+          <Route path="/mindset/lesson3" element={<MindsetLesson3 />} />
+          <Route path="/mindset/lesson4" element={<MindsetLesson4 />} />
+          <Route path="/mindset/lesson5" element={<MindsetLesson5 />} />
+          <Route path="/mindset/test" element={<FinalTestMindset />} />
 
           {/* Модуль: Введение в крипту */}
           <Route path="/intro" element={<IntroModule />} />

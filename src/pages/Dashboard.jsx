@@ -22,6 +22,9 @@ export default function Dashboard() {
       </div>
 
       <div className="dashboard-menu">
+      <Link to="/mindset" className="dashboard-button">
+          <Trans i18nKey="shared_mindset_module" />
+        </Link>
         <Link to="/intro" className="dashboard-button">
           <Trans i18nKey="shared_intro_module" />
         </Link>

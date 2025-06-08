@@ -6,9 +6,10 @@ export default function FinalTestToken() {
   return (
     <FinalTestTemplate
       module="token"
-      prevLink="/token/lesson10"
+      prevLink="/token"
       moduleLink="/token"
       translationNamespace="token/finalTest"
+      totalQuestions={20}
     />
   );
 }

@@ -15,7 +15,7 @@ export default function BlockModule() {
       </h1>
 
       <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "20px" }}>
-        <Link to="/" className="nav-button">
+        <Link to="/dashboard" className="nav-button">
           <Trans i18nKey="shared_back_button" />
         </Link>
       </div>

@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import './LessonWrapper.css';
+import './FinalTestTemplate.css';
 
-export default function FinalTestTemplate({ module, prevLink, moduleLink, translationNamespace }) {
+export default function FinalTestTemplate({ module, prevLink, moduleLink, translationNamespace, totalQuestions }) {
   const { t } = useTranslation(translationNamespace);
   const { t: tShared } = useTranslation('shared');
 
-  const totalQuestions = 5; // можно заменить на 10, если нужно
   const [currentQuestion, setCurrentQuestion] = useState(1);
   const [selected, setSelected] = useState(null);
   const [submitted, setSubmitted] = useState(false);
@@ -21,7 +20,7 @@ export default function FinalTestTemplate({ module, prevLink, moduleLink, transl
   const handleSubmit = () => {
     if (selected === null) return;
     if (selected === correctAnswer) {
-      setCorrectCount(correctCount + 1);
+      setCorrectCount((prev) => prev + 1);
     }
     setSubmitted(true);
   };
@@ -43,14 +42,17 @@ export default function FinalTestTemplate({ module, prevLink, moduleLink, transl
           <Link to={moduleLink} className="top-return-button">{tShared('shared_return_button')}</Link>
           <Link to="/" className="home-button">🏠</Link>
         </div>
-        <h2 className="lesson-title">{t(`${translationNamespace}_title`)}</h2>
+        <h2 className="lesson-title">{t('title')}</h2>
         <div className="final-result">
-          {correctCount >= totalQuestions * 0.6
-            ? <p>{t(`${translationNamespace}_result_success`)}</p>
-            : <p>{t(`${translationNamespace}_result_fail`)}</p>}
+          {correctCount >= totalQuestions * 0.90
+            ? <p>{t('result_success')}</p>
+            : <p>{t('result_fail')}</p>}
+          <p>
+            <strong>{correctCount}</strong> {tShared('shared_out_of')} <strong>{totalQuestions}</strong>
+          </p>
         </div>
         <div className="nav-buttons">
-          <Link to={prevLink} className="nav-button">{tShared('back_button')}</Link>
+          <Link to={prevLink} className="nav-button">{tShared('shared_finish_final_test')}</Link>
         </div>
       </div>
     );
@@ -59,12 +61,14 @@ export default function FinalTestTemplate({ module, prevLink, moduleLink, transl
   return (
     <div className="lesson-container">
       <div className="top-buttons">
-        <Link to={moduleLink} className="top-return-button">{tShared('back_to_module')}</Link>
+        <Link to={moduleLink} className="top-return-button">{tShared('shared_return_button')}</Link>
         <Link to="/" className="home-button">🏠</Link>
       </div>
 
-      <h2 className="lesson-title">{t(`${translationNamespace}_title`)}</h2>
-      <p className="question-progress">Вопрос {currentQuestion} из {totalQuestions}</p>
+      <h2 className="lesson-title">{t('title')}</h2>
+      <p className="question-progress">
+        {tShared('shared_question')} {currentQuestion} {tShared('shared_of')} {totalQuestions}
+      </p>
       <p className="question-text">{t(`${questionKey}`)}</p>
 
       <div className="test-options">
@@ -79,7 +83,9 @@ export default function FinalTestTemplate({ module, prevLink, moduleLink, transl
               : isSelected
                 ? 'incorrect'
                 : ''
-            : isSelected ? 'selected' : '';
+            : isSelected
+              ? 'selected'
+              : '';
 
           return (
             <button
@@ -96,11 +102,13 @@ export default function FinalTestTemplate({ module, prevLink, moduleLink, transl
 
       {!submitted ? (
         <button className="submit-button" onClick={handleSubmit}>
-          {t(`${translationNamespace}_submit`)}
+          {tShared('shared_submit')}
         </button>
       ) : (
         <button className="submit-button" onClick={handleNext}>
-          {currentQuestion === totalQuestions ? 'Показать результат' : 'Следующий вопрос'}
+          {currentQuestion === totalQuestions
+            ? tShared('shared_show_result')
+            : tShared('shared_next_question')}
         </button>
       )}
     </div>

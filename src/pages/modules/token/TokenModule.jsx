@@ -17,7 +17,7 @@ export default function TokenModule() {
       </h1>
 
       <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "20px" }}>
-        <Link to="/" className="nav-button">
+        <Link to="/dashboard" className="nav-button">
           <Trans i18nKey="shared_back_button" />
         </Link>
       </div>
@@ -50,7 +50,7 @@ export default function TokenModule() {
         <Link to="/token/lesson9" className="dashboard-button">
           <Trans i18nKey="shared_token_lesson9" />
         </Link>
-        <Link to="token/lesson10" className="dashboard-button">
+        <Link to="/token/lesson10" className="dashboard-button">
           <Trans i18nKey="shared_token_lesson10" />
         </Link>
         <Link to="/token/finaltest" className="dashboard-button final-button">
