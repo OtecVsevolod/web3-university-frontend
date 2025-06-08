@@ -70,6 +70,24 @@ import Web3Lesson8 from './pages/modules/web3defi/lesson8';
 import Web3Lesson9 from './pages/modules/web3defi/lesson9';
 import Web3Lesson10 from './pages/modules/web3defi/lesson10';
 
+// 📘 Страница выбора уроков
+import TokenModule from './pages/modules/token/TokenModule';
+// 📚 Уроки
+import TokenLesson1 from './pages/modules/token/lesson1';
+import TokenLesson2 from './pages/modules/token/lesson2';
+import TokenLesson3 from './pages/modules/token/lesson3';
+import TokenLesson4 from './pages/modules/token/lesson4';
+import TokenLesson5 from './pages/modules/token/lesson5';
+import TokenLesson6 from './pages/modules/token/lesson6';
+import TokenLesson7 from './pages/modules/token/lesson7';
+import TokenLesson8 from './pages/modules/token/lesson8';
+import TokenLesson9 from './pages/modules/token/lesson9';
+import TokenLesson10 from './pages/modules/token/lesson10';
+
+// 🧪 Финальный тест
+import FinalTestToken from './pages/modules/token/FinalTestToken';
+
+
 
 export default function App() {
   return (
@@ -142,6 +160,19 @@ export default function App() {
           <Route path="/web3defi/lesson10" element={<Web3Lesson10 />} />
           <Route path="/web3defi/final-test" element={<FinalTestWeb3DeFi />} />
           <Route path="/dashboard" element={<Dashboard />} />
+
+          <Route path="/token" element={<TokenModule />} />
+          <Route path="/token/lesson1" element={<TokenLesson1 />} />
+          <Route path="/token/lesson2" element={<TokenLesson2 />} />
+          <Route path="/token/lesson3" element={<TokenLesson3 />} />
+          <Route path="/token/lesson4" element={<TokenLesson4 />} />
+          <Route path="/token/lesson5" element={<TokenLesson5 />} />
+          <Route path="/token/lesson6" element={<TokenLesson6 />} />
+          <Route path="/token/lesson7" element={<TokenLesson7 />} />
+          <Route path="/token/lesson8" element={<TokenLesson8 />} />
+          <Route path="/token/lesson9" element={<TokenLesson9 />} />
+          <Route path="/token/lesson10" element={<TokenLesson10 />} />
+          <Route path="/token/finaltest" element={<FinalTestToken />} />
         </Routes>
       </div>
     </Router>

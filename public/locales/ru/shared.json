@@ -90,6 +90,17 @@
     "shared_support_title": "Поддержать проект",
     "shared_support_description": "Этот университет создаётся одним человеком — без инвесторов, без команды, без копейки бюджета. Только знания, код и вера в свободное образование. Если тебе близка идея — ты можешь поддержать развитие напрямую. Каждая сумма — это кирпич в новую систему.",
     "shared_support_wallets_title": "Кошельки для поддержки",
-    "shared_support_contacts_title": "Контакты для связи"
+    "shared_support_contacts_title": "Контакты для связи",
+    "shared_token_lesson1": "Урок 1: Что такое токенизация?",
+    "shared_token_lesson2": "Урок 2: Что такое RWA?",
+    "shared_token_lesson3": "Урок 3: Как токенизируют активы",
+    "shared_token_lesson4": "Урок 4: Зачем это всё нужно?",
+    "shared_token_lesson5": "Урок 5: Что такое CBDC?",
+    "shared_token_lesson6": "Урок 6: CBDC vs Крипта",
+    "shared_token_lesson7": "Урок 7: Где уже внедряют CBDC?",
+    "shared_token_lesson8": "Урок 8: Риски токенизации",
+    "shared_token_lesson9": "Урок 9: Альтернативный взгляд",
+    "shared_token_lesson10": "Урок 10: Закрепление",
+    "shared_start_final_test": "Пройти финальный тест"
   
   }

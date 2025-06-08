@@ -34,7 +34,7 @@ export default function Dashboard() {
         <Link to="/modules/web3defi" className="dashboard-button">
           <Trans i18nKey="shared_web3defi_module" />
         </Link>
-        <Link to="/tokenization" className="dashboard-button">
+        <Link to="/token" className="dashboard-button">
           <Trans i18nKey="shared_token_module" />
         </Link>
         <Link to="/strategies" className="dashboard-button">
