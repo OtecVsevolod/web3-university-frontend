@@ -1,12 +1,21 @@
 .lesson-container {
-  max-width: none;
+  width: 100%;
   margin: 0 auto;
-  padding: 1px 10px;
+  padding: 10px 4px;
+  box-sizing: border-box;
   color: #f1f1f1;
   font-family: 'Courier New', monospace;
-  background-color: #03181b;
+  background-color: #101818ee;
   border: 0.2px solid #444;
   border-radius: 8px;
+}
+
+/* 💻 На десктопах можно оставить более широкий padding */
+@media (min-width: 768px) {
+  .lesson-container {
+    max-width: 900px;
+    padding: 20px 24px; /* немного "воздуха" для больших экранов */
+  }
 }
 
 .lesson-box {
