@@ -7,7 +7,7 @@
 }
 
 html, body {
-  background-image: linear-gradient(rgba(26, 25, 6, 0.788), rgba(0, 0, 0, 0.829)), url('/backgrounds/tytulka.jpg');
+  background-image: linear-gradient(rgba(26, 25, 6, 0.788), rgba(0, 0, 0, 0.877)), url('/backgrounds/tytulka.jpg');
   background-repeat: no-repeat;
   background-position: 50% 40%;
   margin: 0;
@@ -41,8 +41,8 @@ html, body {
 /* === ГЛАВНЫЙ КОНТЕЙНЕР === */
 #root {
   width: 100%;
-  max-width: 500px;
-  padding: 1px;
+  max-width: 480px;
+  padding: 20px;
 }
 
 /* === СТИЛЬ ЛОГОТИПА === */
@@ -127,7 +127,7 @@ html, body {
 /* === АДАПТИВНОСТЬ === */
 @media (max-width: 500px) {
   #root {
-    padding: 5px;
+    padding: 15px;
   }
 
   .title {
