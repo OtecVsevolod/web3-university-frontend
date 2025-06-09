@@ -1,13 +1,23 @@
 .lesson-container {
-  max-width: 820px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 30px 10px;
+  padding: 20px 20px;
   color: #f1f1f1;
   font-family: 'Courier New', monospace;
-  background-color: #03181b;
+  background-color: #071416cb;
   border: 0.2px solid #444;
   border-radius: 8px;
+  box-sizing: border-box;
+  width: calc(100% - 40px); /* убирает эффект "узкой коробки", но сохраняет поля */
 }
+
+@media (min-width: 768px) {
+  .lesson-container {
+    max-width: 900px;
+    padding: 20px 40px;
+  }
+}
+
 
 .lesson-box {
   border: 1px solid #555;

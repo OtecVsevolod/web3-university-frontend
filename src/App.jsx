@@ -20,6 +20,7 @@ import MindsetLesson2 from './pages/modules/mindset/lesson2';
 import MindsetLesson3 from './pages/modules/mindset/lesson3';
 import MindsetLesson4 from './pages/modules/mindset/lesson4';
 import MindsetLesson5 from './pages/modules/mindset/lesson5';
+import MindsetLesson6 from './pages/modules/mindset/lesson6';
 import FinalTestMindset from './pages/modules/mindset/FinalTestMindset';
 
 // Модуль 1: Введение в крипту
@@ -119,6 +120,7 @@ export default function App() {
           <Route path="/mindset/lesson3" element={<MindsetLesson3 />} />
           <Route path="/mindset/lesson4" element={<MindsetLesson4 />} />
           <Route path="/mindset/lesson5" element={<MindsetLesson5 />} />
+          <Route path="/mindset/lesson6" element={<MindsetLesson6 />} />
           <Route path="/mindset/test" element={<FinalTestMindset />} />
 
           {/* Модуль: Введение в крипту */}

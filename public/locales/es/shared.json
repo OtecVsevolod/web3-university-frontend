@@ -86,9 +86,36 @@
     "shared_support_title": "Apoyar el proyecto",
     "shared_support_description": "Este proyecto está siendo creado por una sola persona — sin inversores, sin equipo, sin presupuesto. Solo fe en la libertad del conocimiento y el poder de Web3. Cualquier apoyo es una contribución a la educación descentralizada del nuevo mundo.",
     "shared_support_wallets_title": "Carteras para apoyar",
-    "shared_support_contacts_title": "Contactos de comunicación"
-  
-  
+    "shared_support_contacts_title": "Contactos de comunicación",
+    "shared_token_lesson1": "Lección 1: ¿Qué es la tokenización?",
+    "shared_token_lesson2": "Lección 2: ¿Qué son los RWA?",
+    "shared_token_lesson3": "Lección 3: Cómo se tokenizan los activos",
+    "shared_token_lesson4": "Lección 4: ¿Para qué sirve todo esto?",
+    "shared_token_lesson5": "Lección 5: ¿Qué es una CBDC?",
+    "shared_token_lesson6": "Lección 6: CBDC vs Cripto",
+    "shared_token_lesson7": "Lección 7: Dónde ya se están usando las CBDC",
+    "shared_token_lesson8": "Lección 8: Riesgos de la tokenización",
+    "shared_token_lesson9": "Lección 9: Perspectiva alternativa",
+    "shared_token_lesson10": "Lección 10: Consolidación",
+    "shared_start_final_test": "Realizar el test final",
+    "shared_home": "🏠 Inicio",
+    "shared_submit": "Responder",
+    "shared_show_result": "Mostrar resultado",
+    "shared_next_question": "Siguiente pregunta",
+    "shared_finish_final_test": "Finalizar test",
+    "shared_out_of": "de",
+    "shared_question": "Pregunta",
+    "shared_of": "de",
+    "shared_mindset_module": "Mentalidad y educación financiera",
+    "shared_mindset_lesson1": "Lección 1: Cómo no perderlo todo",
+    "shared_mindset_lesson2": "Lección 2: Ludopatía e ilusión del dinero fácil",
+    "shared_mindset_lesson3": "Lección 3: Haz un backtest de ti mismo",
+    "shared_mindset_lesson4": "Lección 4: Invertir toma años",
+    "shared_mindset_lesson5": "Lección 5: La estabilidad financiera comienza con la mentalidad",
+    "shared_mindset_lesson6": "Lección 6: Construcción de estrategia",
+    "shared_final_test": "Test final",
+    "shared_result_fail": "No pasaste el test. ¡Inténtalo de nuevo!",
+    "shared_result_success": "¡Felicidades! ¡Has aprobado el test!"
   
   }
   

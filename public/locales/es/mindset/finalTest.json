@@ -1,0 +1,76 @@
+{
+    "title": "Test Final: Mentalidad y Educación Financiera",
+    "question1": "¿Qué es lo más importante en una estrategia a largo plazo?",
+    "question1_option1": "Rapidez en la toma de decisiones",
+    "question1_option2": "Coherencia y repetibilidad de las acciones",
+    "question1_option3": "Intuición y corazonadas",
+    "question1_option4": "Acceso a información privilegiada",
+    "question1_correct": "option2",
+  
+    "question2": "¿Qué hace a una persona vulnerable a la ludopatía?",
+    "question2_option1": "Deseo de resultados rápidos sin esfuerzo",
+    "question2_option2": "Falta de dinero",
+    "question2_option3": "Mal entorno",
+    "question2_option4": "Falta de acceso al mercado bursátil",
+    "question2_correct": "option1",
+  
+    "question3": "¿Por qué la riqueza no equivale a libertad?",
+    "question3_option1": "Porque se puede ser rico y seguir siendo dependiente",
+    "question3_option2": "Porque la inflación supera la rentabilidad",
+    "question3_option3": "Porque el dinero pierde valor",
+    "question3_option4": "Porque los impuestos lo quitan todo",
+    "question3_correct": "option1",
+  
+    "question4": "¿Qué diferencia a un inversor de un jugador?",
+    "question4_option1": "Amor por el riesgo",
+    "question4_option2": "Uso del análisis técnico",
+    "question4_option3": "Tener estrategia y paciencia",
+    "question4_option4": "Tamaño del capital",
+    "question4_correct": "option3",
+  
+    "question5": "¿Qué trampa suelen subestimar los principiantes?",
+    "question5_option1": "Sus propias emociones e impulsividad",
+    "question5_option2": "Riesgos de los monederos fríos",
+    "question5_option3": "Baja volatilidad",
+    "question5_option4": "Falta de licencias en exchanges",
+    "question5_correct": "option1",
+  
+    "question6": "¿Cuándo te vuelves verdaderamente libre?",
+    "question6_option1": "Cuando tus conocimientos te hacen independiente de la suerte",
+    "question6_option2": "Cuando tienes 1 BTC",
+    "question6_option3": "Cuando tu portafolio crece",
+    "question6_option4": "Cuando puedes permitirte todo",
+    "question6_correct": "option1",
+  
+    "question7": "¿Qué se puede considerar un verdadero activo?",
+    "question7_option1": "Cualquier valor líquido",
+    "question7_option2": "Tierra, oro, cripto",
+    "question7_option3": "Capacidad para decidir y actuar",
+    "question7_option4": "Solo lo que genera ingresos",
+    "question7_correct": "option3",
+  
+    "question8": "¿Qué ayuda a superar cualquier crisis?",
+    "question8_option1": "Colchón financiero y conciencia",
+    "question8_option2": "Capacidad para convertir rápido en efectivo",
+    "question8_option3": "Entorno fuerte",
+    "question8_option4": "Moneda estable",
+    "question8_correct": "option1",
+  
+    "question9": "¿Por qué muchos lo pierden todo incluso después de ganar mucho?",
+    "question9_option1": "Estrategia de trading deficiente",
+    "question9_option2": "Confiaron demasiado pronto en el éxito",
+    "question9_option3": "No sabían cuándo salir",
+    "question9_option4": "No tenían mentalidad de inversor",
+    "question9_correct": "option4",
+  
+    "question10": "¿Qué pasa con el dinero si no tienes conocimientos?",
+    "question10_option1": "Desaparece tan rápido como llegó",
+    "question10_option2": "Puedes duplicarlo en un DEX",
+    "question10_option3": "Se queda en stablecoins",
+    "question10_option4": "Se queda si tienes suerte",
+    "question10_correct": "option1",
+  
+    "result_fail": "No pasaste el test. ¡Inténtalo de nuevo!",
+    "result_success": "¡Felicidades! ¡Has aprobado el test!"
+  }
+  

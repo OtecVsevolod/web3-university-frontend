@@ -1,0 +1,76 @@
+{
+    "title": "Final Test: Mindset and Financial Literacy",
+    "question1": "What is most important in a long-term strategy?",
+    "question1_option1": "Speed of decision-making",
+    "question1_option2": "Consistency and repeatability of actions",
+    "question1_option3": "Intuition and instinct",
+    "question1_option4": "Access to private insights",
+    "question1_correct": "option2",
+  
+    "question2": "What makes a person vulnerable to gambling addiction?",
+    "question2_option1": "Desire for quick results without effort",
+    "question2_option2": "Lack of money",
+    "question2_option3": "Bad environment",
+    "question2_option4": "No access to the stock market",
+    "question2_correct": "option1",
+  
+    "question3": "Why doesn’t wealth equal freedom?",
+    "question3_option1": "Because you can be rich and still dependent",
+    "question3_option2": "Because inflation is higher than returns",
+    "question3_option3": "Because money loses value",
+    "question3_option4": "Because taxes take everything",
+    "question3_correct": "option1",
+  
+    "question4": "What distinguishes an investor from a gambler?",
+    "question4_option1": "Love of risk",
+    "question4_option2": "Use of technical analysis",
+    "question4_option3": "Having a strategy and patience",
+    "question4_option4": "Capital size",
+    "question4_correct": "option3",
+  
+    "question5": "What trap do beginners often underestimate?",
+    "question5_option1": "Their own emotions and impulsiveness",
+    "question5_option2": "Risks of cold wallets",
+    "question5_option3": "Low volatility",
+    "question5_option4": "Lack of exchange licenses",
+    "question5_correct": "option1",
+  
+    "question6": "When do you truly become free?",
+    "question6_option1": "When your knowledge frees you from luck",
+    "question6_option2": "When you own 1 BTC",
+    "question6_option3": "When your portfolio grows",
+    "question6_option4": "When you can afford everything",
+    "question6_correct": "option1",
+  
+    "question7": "What can be considered a real asset?",
+    "question7_option1": "Any liquid value",
+    "question7_option2": "Land, gold, crypto",
+    "question7_option3": "Ability to decide and act",
+    "question7_option4": "Only income-generating things",
+    "question7_correct": "option3",
+  
+    "question8": "What helps you survive any crisis?",
+    "question8_option1": "Emergency fund and awareness",
+    "question8_option2": "Ability to go cash fast",
+    "question8_option3": "Strong community",
+    "question8_option4": "Stable currency",
+    "question8_correct": "option1",
+  
+    "question9": "Why do many lose it all even after big profits?",
+    "question9_option1": "Bad trading strategy",
+    "question9_option2": "Believed in success too early",
+    "question9_option3": "Didn’t know when to exit",
+    "question9_option4": "Didn’t have an investor mindset",
+    "question9_correct": "option4",
+  
+    "question10": "What happens to money without knowledge?",
+    "question10_option1": "It disappears as suddenly as it came",
+    "question10_option2": "You can double it through DEX",
+    "question10_option3": "It stays in stablecoins",
+    "question10_option4": "It stays if you’re lucky",
+    "question10_correct": "option1",
+  
+    "result_fail": "You did not pass the test. Try again!",
+    "result_success": "Congratulations! You passed the test!"
+  }
+  

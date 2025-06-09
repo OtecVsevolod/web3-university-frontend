@@ -1,0 +1,128 @@
+{
+    "title": "Final Test: Tokenization / RWA / CBDC",
+    "submit": "Submit Answer",
+    "result_success": "You’ve completed a challenging path and proved your understanding of digital transformation. Respect!",
+    "result_fail": "We recommend revisiting the lessons — especially on CBDC, RWA, and the philosophical aspects of decentralization.",
+  
+    "question1": "Tokenizing a real estate asset without legal backing may lead to:",
+    "question1_option1": "Recognition of ownership in any jurisdiction",
+    "question1_option2": "Automatic registration with a notary",
+    "question1_option3": "Illusion of ownership without actual rights ✅",
+    "question1_correct": "option3",
+  
+    "question2": "What is the risk of tokenization without independent platform audit?",
+    "question2_option1": "Limited DeFi liquidity",
+    "question2_option2": "Centralized asset control ✅",
+    "question2_option3": "High fees",
+    "question2_correct": "option2",
+  
+    "question3": "RWA stands for:",
+    "question3_option1": "Anonymous tokens for private payments",
+    "question3_option2": "Tokens backed by real-world assets ✅",
+    "question3_option3": "NFT collections with physical prototypes",
+    "question3_correct": "option2",
+  
+    "question4": "What is the most controversial aspect of RWA on blockchain?",
+    "question4_option1": "Ties to centralized legal structures ✅",
+    "question4_option2": "Digital representation of property",
+    "question4_option3": "Storing metadata in IPFS",
+    "question4_correct": "option1",
+  
+    "question5": "CBDC is introduced as:",
+    "question5_option1": "A transparent and controllable monetary system ✅",
+    "question5_option2": "A tool for absolute privacy",
+    "question5_option3": "A decentralized currency beyond state control",
+    "question5_correct": "option1",
+  
+    "question6": "Why are Web3 advocates concerned about CBDC?",
+    "question6_option1": "Because it is centralized and can be used for financial surveillance ✅",
+    "question6_option2": "Because it doesn't run on smart contracts",
+    "question6_option3": "Because it has high volatility",
+    "question6_correct": "option1",
+  
+    "question7": "Which approach aligns best with Web3 philosophy?",
+    "question7_option1": "Global oversight and regulation",
+    "question7_option2": "Transparency, open-source code, and digital ownership ✅",
+    "question7_option3": "Centralized stability and control",
+    "question7_correct": "option2",
+  
+    "question8": "What makes tokenization truly useful?",
+    "question8_option1": "Project's marketing appeal",
+    "question8_option2": "Integration with a social network",
+    "question8_option3": "Liquidity, fractional ownership, and access to previously unavailable assets ✅",
+    "question8_correct": "option3",
+  
+    "question9": "Why can decentralized tokenization be safer?",
+    "question9_option1": "Decisions and data are distributed, not controlled by a single point ✅",
+    "question9_option2": "No legal contracts are required",
+    "question9_option3": "It doesn't rely on fiat currency",
+    "question9_correct": "option1",
+  
+    "question10": "Which statement about CBDC is incorrect?",
+    "question10_option1": "CBDC is completely anonymous and untraceable ✅",
+    "question10_option2": "CBDC can be frozen by the central bank",
+    "question10_option3": "CBDC doesn’t require a traditional blockchain",
+    "question10_correct": "option1",
+  
+    "question11": "What is the key challenge for mass tokenization?",
+    "question11_option1": "Complex user interface",
+    "question11_option2": "Slow transaction speed",
+    "question11_option3": "Lack of trust, legal infrastructure, and token recognition as rights ✅",
+    "question11_correct": "option3",
+  
+    "question12": "What distinguishes real RWA from imitation?",
+    "question12_option1": "Legally verified bridge between token and asset ✅",
+    "question12_option2": "Token design and icon",
+    "question12_option3": "Presence of a whitepaper",
+    "question12_correct": "option1",
+  
+    "question13": "CBDC may be used by the state for:",
+    "question13_option1": "Targeted monetary policy and freezing individual wallets ✅",
+    "question13_option2": "Enabling full decentralized control",
+    "question13_option3": "Mining government tokens",
+    "question13_correct": "option1",
+  
+    "question14": "What does it mean that 'a token is not an asset but a digital promise'?",
+    "question14_option1": "Token is like digital currency",
+    "question14_option2": "Token always has value",
+    "question14_option3": "Token reflects a right, but doesn’t always ensure access to the real asset ✅",
+    "question14_correct": "option3",
+  
+    "question15": "Which platforms most often use RWA tokenization?",
+    "question15_option1": "VPNs and browsers",
+    "question15_option2": "Instagram and TikTok",
+    "question15_option3": "DeFi protocols like Maker, Centrifuge, Goldfinch ✅",
+    "question15_correct": "option3",
+  
+    "question16": "The main philosophical threat of CBDC is that:",
+    "question16_option1": "They can be hacked",
+    "question16_option2": "They work only online",
+    "question16_option3": "They are fully controlled by central authority, undermining freedom in money ✅",
+    "question16_correct": "option3",
+  
+    "question17": "How to verify if an RWA token is actually backed by an asset?",
+    "question17_option1": "If the token has a nice cover",
+    "question17_option2": "Through an auditor, legal documents, and platform disclosures ✅",
+    "question17_option3": "Through Instagram and user reviews",
+    "question17_correct": "option2",
+  
+    "question18": "Which of the following is NOT a goal of tokenization?",
+    "question18_option1": "Creating transparency",
+    "question18_option2": "Limiting access to assets ✅",
+    "question18_option3": "Increasing liquidity",
+    "question18_correct": "option2",
+  
+    "question19": "What are the risks for RWA token investors?",
+    "question19_option1": "Lack of legal recognition, no protection in disputes ✅",
+    "question19_option2": "Staking being canceled",
+    "question19_option3": "Possibility of a hard fork",
+    "question19_correct": "option1",
+  
+    "question20": "Why is it important in Web3 to give people control over their assets?",
+    "question20_option1": "Because it’s a trend",
+    "question20_option2": "Because it increases token market cap",
+    "question20_option3": "Because people should have the right to manage their labor, resources, and choices ✅",
+    "question20_correct": "option3",
+    "shared_finish_final_test": "Finish"
+  }
+  

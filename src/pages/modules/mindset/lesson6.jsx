@@ -1,12 +1,12 @@
 import LessonTemplate from '../../../components/LessonTemplate';
 
-export default function MindsetLesson5() {
+export default function MindsetLesson6() {
   return (
     <LessonTemplate
       module="mindset"
-      lessonKey="lesson5"
-      prevLink="/mindset/lesson4"
-      nextLink="/mindset/lesson6"
+      lessonKey="lesson6"
+      prevLink="/mindset/lesson5"
+      nextLink="/mindset/test"
       moduleLink="/mindset"
     />
   );

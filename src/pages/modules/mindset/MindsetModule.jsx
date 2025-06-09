@@ -38,6 +38,9 @@ export default function MindsetModule() {
         <Link to="/mindset/lesson5" className="dashboard-button">
           <Trans i18nKey="shared_mindset_lesson5" />
         </Link>
+        <Link to="/mindset/lesson6" className="dashboard-button">
+          <Trans i18nKey="shared_mindset_lesson6" />
+        </Link>
         <Link to="/mindset/test" className="dashboard-button final-button">
           <Trans i18nKey="shared_start_final_test" />
         </Link>
