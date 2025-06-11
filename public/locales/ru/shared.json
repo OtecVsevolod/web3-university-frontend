@@ -119,6 +119,41 @@
     "shared_mindset_lesson6": "Урок 6: Построение стратегии",
     "shared_final_test": "Финальный тест",
     "shared_result_fail": "Вы не прошли тест. Попробуйте ещё раз!",
-    "shared_result_success": "Поздравляем! Вы успешно прошли тест!"
+    "shared_result_success": "Поздравляем! Вы успешно прошли тест!",
 
+    "shared_strategies_lesson1": "Урок 1: Что такое стратегия?",
+    "shared_strategies_lesson2": "Урок 2: Что такое DCA — стратегия?",
+    "shared_strategies_lesson3": "Урок 3: Альтернативы DCA ",
+    "shared_strategies_lesson4": "Урок 4: Как выбрать свою стратегию?",
+    "shared_strategies_lesson5": "Урок 5: Психология принятия решений — где рушатся стратегии",
+    "shared_strategies_lesson6": "Урок 6: Диверсификация и распределение",
+    "shared_strategies_lesson7": "Урок 7: Что такое Airdrop?",
+    "shared_strategies_lesson8": "Урок 8: Что такое стейкинг, ликвидный стейкинг и рестейкинг?",
+    "shared_strategies_lesson9": "Урок 9: Что такое фарминг?",
+    "shared_strategies_lesson10": "Урок 10: Что такое NFT?",
+    "shared_strategies_lesson11": "Урок 11: Как зарабатывать просто?",
+    "shared_strategies_lesson12": "Урок 12: Как соединить всё в единую стратегию?",
+    "shared_zk_lesson1": "Урок 1: Что такое ZK — простыми словами",
+    "shared_zk_lesson2": "Урок 2: Зачем вообще нужен ZK",
+    "shared_zk_lesson3": "Урок 3: ZK в реальной жизни",
+    "shared_zk_lesson4": "Урок 4: ZK и шифрование",
+    "shared_zk_lesson5": "Урок 5: Как работает ZK",
+    "shared_zk_lesson6": "Урок 6: ZK и хэши",
+    "shared_zk_lesson7": "Урок 7: ZK-SNARKs",
+    "shared_zk_lesson8": "Урок 8: ZK-STARKs",
+    "shared_zk_lesson9": "Урок 9: zkRollup vs Optimistic Rollup",
+    "shared_zk_lesson10": "Урок 10: zkEVM и zkVM",
+    "shared_zk_lesson11": "Урок 11: Реальные ZK-проекты",
+    "shared_zk_lesson12": "Урок 12: Анонимные транзакции",
+    "shared_zk_lesson13": "Урок 13: Идентификация через ZK",
+    "shared_zk_lesson14": "Урок 14: DAO и голосования",
+    "shared_zk_lesson15": "Урок 15: ZK-паспорта и кредиты",
+    "shared_zk_lesson16": "Урок 16: ZK на практике",
+    "shared_zk_lesson17": "Урок 17: Инструменты разработчика",
+    "shared_zk_lesson18": "Урок 18: ZK и будущее Web3",
+    "shared_zk_lesson19": "Урок 19: Путь в ZK — шаг за шагом",
+    "shared_zk_lesson20": "Урок 20: ZK-манифест"
+  
+
+  
   }

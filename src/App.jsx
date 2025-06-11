@@ -95,6 +95,51 @@ import TokenLesson10 from './pages/modules/token/lesson10';
 // 🧪 Финальный тест
 import FinalTestToken from './pages/modules/token/FinalTestToken';
 
+// Главная страница модуля и финальный тест
+import StrategiesModule from './pages/modules/strategies/StrategiesModule';
+
+// Уроки
+import StrategiesLesson1 from './pages/modules/strategies/StrategiesLesson1';
+import StrategiesLesson2 from './pages/modules/strategies/StrategiesLesson2';
+import StrategiesLesson3 from './pages/modules/strategies/StrategiesLesson3';
+import StrategiesLesson4 from './pages/modules/strategies/StrategiesLesson4';
+import StrategiesLesson5 from './pages/modules/strategies/StrategiesLesson5';
+import StrategiesLesson6 from './pages/modules/strategies/StrategiesLesson6';
+import StrategiesLesson7 from './pages/modules/strategies/StrategiesLesson7';
+import StrategiesLesson8 from './pages/modules/strategies/StrategiesLesson8';
+import StrategiesLesson9 from './pages/modules/strategies/StrategiesLesson9';
+import StrategiesLesson10 from './pages/modules/strategies/StrategiesLesson10';
+import StrategiesLesson11 from './pages/modules/strategies/StrategiesLesson11';
+import StrategiesLesson12 from './pages/modules/strategies/StrategiesLesson12';
+// 🧪 Финальный тест
+import FinalTestStrategies from './pages/modules/strategies/FinalTestStrategies';
+
+// Главная страница модуля и финальный тест
+import ZkModule from './pages/modules/zk/ZkModule';
+
+// Уроки
+import ZkLesson1 from './pages/modules/zk/ZkLesson1';
+import ZkLesson2 from './pages/modules/zk/ZkLesson2';
+import ZkLesson3 from './pages/modules/zk/ZkLesson3';
+import ZkLesson4 from './pages/modules/zk/ZkLesson4';
+import ZkLesson5 from './pages/modules/zk/ZkLesson5';
+import ZkLesson6 from './pages/modules/zk/ZkLesson6';
+import ZkLesson7 from './pages/modules/zk/ZkLesson7';
+import ZkLesson8 from './pages/modules/zk/ZkLesson8';
+import ZkLesson9 from './pages/modules/zk/ZkLesson9';
+import ZkLesson10 from './pages/modules/zk/ZkLesson10';
+import ZkLesson11 from './pages/modules/zk/ZkLesson11';
+import ZkLesson12 from './pages/modules/zk/ZkLesson12';
+import ZkLesson13 from './pages/modules/zk/ZkLesson13';
+import ZkLesson14 from './pages/modules/zk/ZkLesson14';
+import ZkLesson15 from './pages/modules/zk/ZkLesson15';
+import ZkLesson16 from './pages/modules/zk/ZkLesson16';
+import ZkLesson17 from './pages/modules/zk/ZkLesson17';
+import ZkLesson18 from './pages/modules/zk/ZkLesson18';
+import ZkLesson19 from './pages/modules/zk/ZkLesson19';
+import ZkLesson20 from './pages/modules/zk/ZkLesson20';
+// 🧪 Финальный тест
+import FinalTestZk from './pages/modules/zk/FinalTestZk';
 
 
 export default function App() {
@@ -191,6 +236,44 @@ export default function App() {
           <Route path="/token/lesson9" element={<TokenLesson9 />} />
           <Route path="/token/lesson10" element={<TokenLesson10 />} />
           <Route path="/token/finaltest" element={<FinalTestToken />} />
+
+          <Route path="/strategies" element={<StrategiesModule />} />
+          <Route path="/strategies/lesson1" element={<StrategiesLesson1 />} />
+          <Route path="/strategies/lesson2" element={<StrategiesLesson2 />} />
+          <Route path="/strategies/lesson3" element={<StrategiesLesson3 />} />
+          <Route path="/strategies/lesson4" element={<StrategiesLesson4 />} />
+          <Route path="/strategies/lesson5" element={<StrategiesLesson5 />} />
+          <Route path="/strategies/lesson6" element={<StrategiesLesson6 />} />
+          <Route path="/strategies/lesson7" element={<StrategiesLesson7 />} />
+          <Route path="/strategies/lesson8" element={<StrategiesLesson8 />} />
+          <Route path="/strategies/lesson9" element={<StrategiesLesson9 />} />
+          <Route path="/strategies/lesson10" element={<StrategiesLesson10 />} />
+          <Route path="/strategies/lesson11" element={<StrategiesLesson11 />} />
+          <Route path="/strategies/lesson12" element={<StrategiesLesson12 />} />
+          <Route path="/strategies/test" element={<FinalTestStrategies />} />
+
+          <Route path="/zk" element={<ZkModule />} />
+          <Route path="/zk/lesson1" element={<ZkLesson1 />} />
+          <Route path="/zk/lesson2" element={<ZkLesson2 />} />
+          <Route path="/zk/lesson3" element={<ZkLesson3 />} />
+          <Route path="/zk/lesson4" element={<ZkLesson4 />} />
+          <Route path="/zk/lesson5" element={<ZkLesson5 />} />
+          <Route path="/zk/lesson6" element={<ZkLesson6 />} />
+          <Route path="/zk/lesson7" element={<ZkLesson7 />} />
+          <Route path="/zk/lesson8" element={<ZkLesson8 />} />
+          <Route path="/zk/lesson9" element={<ZkLesson9 />} />
+          <Route path="/zk/lesson10" element={<ZkLesson10 />} />
+          <Route path="/zk/lesson11" element={<ZkLesson11 />} />
+          <Route path="/zk/lesson12" element={<ZkLesson12 />} />
+          <Route path="/zk/lesson13" element={<ZkLesson13 />} />
+          <Route path="/zk/lesson14" element={<ZkLesson14 />} />
+          <Route path="/zk/lesson15" element={<ZkLesson15 />} />
+          <Route path="/zk/lesson16" element={<ZkLesson16 />} />
+          <Route path="/zk/lesson17" element={<ZkLesson17 />} />
+          <Route path="/zk/lesson18" element={<ZkLesson18 />} />
+          <Route path="/zk/lesson19" element={<ZkLesson19 />} />
+          <Route path="/zk/lesson20" element={<ZkLesson20 />} />
+          <Route path="/zk/test" element={<FinalTestZk />} />
         </Routes>
       </div>
     </Router>
