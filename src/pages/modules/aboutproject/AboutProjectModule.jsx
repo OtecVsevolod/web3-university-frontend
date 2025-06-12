@@ -31,6 +31,9 @@ export default function AboutProjectModule() {
         <Link to="/modules/aboutproject/whitepaper" className="dashboard-button">
           <Trans i18nKey="shared_aboutproject_whitepaper" />
         </Link>
+        <Link to="/modules/aboutproject/manifest" className="dashboard-button">
+          <Trans i18nKey="shared_aboutproject_manifest" />
+        </Link>
       </div>
     </div>
   );

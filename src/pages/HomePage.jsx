@@ -77,8 +77,8 @@ export default function HomePage() {
             <button className="secondary-button" onClick={() => navigate('/practice')}>
               {t('shared_home_button_practice')}
             </button>
-            <button className="secondary-button" onClick={() => navigate('/dashboard')}>
-              {t('shared_home_button_allmodules')}
+            <button className="secondary-button" onClick={() => navigate('/modules/aboutproject/manifest')}>
+              {t('shared_aboutproject_manifest')}
             </button>
             <button className="secondary-button" onClick={() => navigate('/aboutproject')}>
               {t('shared_home_button_whitepaper')}

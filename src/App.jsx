@@ -11,7 +11,9 @@ import About from './pages/About';
 import AboutProjectModule from './pages/modules/aboutproject/AboutProjectModule';
 import PhilosophyPage from './pages/modules/aboutproject/PhilosophyPage';
 import WhitepaperPage from './pages/modules/aboutproject/WhitepaperPage';
+import ManifestPage from './pages/modules/aboutproject/ManifestPage';
 import SupportPage from './pages/modules/aboutproject/SupportPage';
+import PracticeDashboard from './pages/modules/practice/PracticeDashboard';
 
 // Модуль 0: Мышление и финансовая грамотность
 import MindsetModule from './pages/modules/mindset/MindsetModule';
@@ -156,7 +158,9 @@ export default function App() {
           <Route path="/aboutproject" element={<AboutProjectModule />} />
           <Route path="/modules/aboutproject/philosophy" element={<PhilosophyPage />} />
           <Route path="/modules/aboutproject/whitepaper" element={<WhitepaperPage />} />
+          <Route path="/modules/aboutproject/manifest" element={<ManifestPage />} />
           <Route path="/support" element={<SupportPage />} />
+          <Route path="/practice" element={<PracticeDashboard />} />
 
          {/* Модуль: Мышление и финансовая грамотность */}
           <Route path="/mindset" element={<MindsetModule />} />

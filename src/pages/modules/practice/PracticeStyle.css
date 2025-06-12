@@ -1,0 +1,57 @@
+/* Контейнер всего урока */
+.practice-lesson-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    font-family: 'Inter', sans-serif;
+    color: #f1f1f1;
+  }
+  
+  /* Галерея из изображений */
+  .practice-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .practice-image-wrapper {
+    width: 30%;
+    max-width: 140px;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .practice-image-wrapper img {
+    width: 100%;
+    border-radius: 6px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .practice-image-wrapper:hover img {
+    transform: scale(1.03);
+  }
+  
+  /* Текст под галереей */
+  .practice-text {
+    background-color: #121212;
+    padding: 14px 16px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .practice-text p {
+    margin-bottom: 12px;
+  }
+  
+  /* Подсветка важного текста */
+  .highlight {
+    color: #ffd000;
+    font-weight: bold;
+  }
+  

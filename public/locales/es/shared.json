@@ -81,6 +81,7 @@
     "shared_home_support_project": "Apoyar el proyecto",
     "shared_philosophy_button": "Filosofía / Whitepaper",
     "shared_aboutproject_title": "Filosofía y estructura del proyecto",
+    "shared_aboutproject_manifest": "Manifiesto",
     "shared_aboutproject_philosophy": "Filosofía del proyecto",
     "shared_aboutproject_whitepaper": "Whitepaper del proyecto",
     "shared_support_title": "Apoyar el proyecto",
@@ -115,7 +116,42 @@
     "shared_mindset_lesson6": "Lección 6: Construcción de estrategia",
     "shared_final_test": "Test final",
     "shared_result_fail": "No pasaste el test. ¡Inténtalo de nuevo!",
-    "shared_result_success": "¡Felicidades! ¡Has aprobado el test!"
+    "shared_result_success": "¡Felicidades! ¡Has aprobado el test!",
+
+    "shared_strategies_lesson1": "Lección 1: ¿Qué es una estrategia?",
+    "shared_strategies_lesson2": "Lección 2: ¿Qué es DCA — una estrategia?",
+    "shared_strategies_lesson3": "Lección 3: Alternativas al DCA",
+    "shared_strategies_lesson4": "Lección 4: Cómo elegir tu estrategia",
+    "shared_strategies_lesson5": "Lección 5: Psicología de las decisiones — donde fallan las estrategias",
+    "shared_strategies_lesson6": "Lección 6: Diversificación y distribución",
+    "shared_strategies_lesson7": "Lección 7: ¿Qué es un Airdrop?",
+    "shared_strategies_lesson8": "Lección 8: ¿Qué es el staking, staking líquido y re-staking?",
+    "shared_strategies_lesson9": "Lección 9: ¿Qué es el farming?",
+    "shared_strategies_lesson10": "Lección 10: ¿Qué es un NFT?",
+    "shared_strategies_lesson11": "Lección 11: Cómo ganar fácilmente",
+    "shared_strategies_lesson12": "Lección 12: Cómo unir todo en una estrategia",
+  
+    "shared_zk_lesson1": "Lección 1: ¿Qué es ZK — en palabras simples?",
+    "shared_zk_lesson2": "Lección 2: ¿Para qué sirve ZK?",
+    "shared_zk_lesson3": "Lección 3: ZK en la vida real",
+    "shared_zk_lesson4": "Lección 4: ZK y encriptación",
+    "shared_zk_lesson5": "Lección 5: Cómo funciona ZK",
+    "shared_zk_lesson6": "Lección 6: ZK y hashes",
+    "shared_zk_lesson7": "Lección 7: ZK-SNARKs",
+    "shared_zk_lesson8": "Lección 8: ZK-STARKs",
+    "shared_zk_lesson9": "Lección 9: zkRollup vs Optimistic Rollup",
+    "shared_zk_lesson10": "Lección 10: zkEVM y zkVM",
+    "shared_zk_lesson11": "Lección 11: Proyectos ZK reales",
+    "shared_zk_lesson12": "Lección 12: Transacciones anónimas",
+    "shared_zk_lesson13": "Lección 13: Identificación a través de ZK",
+    "shared_zk_lesson14": "Lección 14: DAO y votaciones",
+    "shared_zk_lesson15": "Lección 15: Pasaportes y créditos ZK",
+    "shared_zk_lesson16": "Lección 16: ZK en la práctica",
+    "shared_zk_lesson17": "Lección 17: Herramientas para desarrolladores",
+    "shared_zk_lesson18": "Lección 18: ZK y el futuro de Web3",
+    "shared_zk_lesson19": "Lección 19: Camino en ZK — paso a paso",
+    "shared_zk_lesson20": "Lección 20: Manifiesto ZK"
+  
   
   }
   
