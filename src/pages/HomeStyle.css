@@ -207,12 +207,12 @@
 
 .clickable-text {
   cursor: pointer;
-  color: #ffffff;
+  color: #b6b8a2;
   transition: color 0.2s ease;
   padding: 1px 10px;
   border: 1px solid #f1f1ea;
   border-radius: 5px;
-  box-shadow: 0 0 5px #bb92a6, 0 0 7px #917b86;
+  box-shadow: 0 0 5px #bb92a6, 0 0 7px #dad0d5;
   display: inline-block;
 }
 

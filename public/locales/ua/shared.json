@@ -150,7 +150,16 @@
     "shared_zk_lesson17": "Урок 17: Інструменти розробника",
     "shared_zk_lesson18": "Урок 18: ZK і майбутнє Web3",
     "shared_zk_lesson19": "Урок 19: Шлях у ZK — крок за кроком",
-    "shared_zk_lesson20": "Урок 20: ZK-маніфест"
+    "shared_zk_lesson20": "Урок 20: ZK-маніфест",
+
+    "shared_practice_exchange": "Біржі / Стейблкоїни",
+    "shared_practice_quests": "Квести",
+    "shared_practice_etherfi": "Ether.fi",
+    "shared_practice_staking": "Стейкінг",
+    "shared_practice_exchange_lesson1": "Урок 1: Реєстрація",
+    "shared_practice_exchange_lesson2": "Урок 2: Купівля стейблкоїнів",
+    "shared_practice_exchange_lesson3": "Урок 3: Ордер і отримання крипти",
+    "shared_practice_exchange_lesson4": "Урок 4: Де твої монети"
   
   }
   

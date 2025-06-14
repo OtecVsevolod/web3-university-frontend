@@ -159,6 +159,10 @@
     "shared_practice_exchange": "Биржи / Stablecoins",
     "shared_practice_quests": "Квесты",
     "shared_practice_etherfi": "Ether.fi",
-    "shared_practice_staking": "Стейкинг"
+    "shared_practice_staking": "Стейкинг",
+    "shared_practice_exchange_lesson1": "Урок 1: Регистрация",
+    "shared_practice_exchange_lesson2": "Урок 2: Покупка стейблкоинов",
+    "shared_practice_exchange_lesson3": "Урок 3: Оформление ордера и получение криптовалюты",
+    "shared_practice_exchange_lesson4": "Урок 4:  Где находятся твои монеты"
   
   }

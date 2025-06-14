@@ -24,29 +24,6 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="home-section align-left">
-            <h3 className="section-title neon-blue left-aligned-title">
-              {t('shared_home_path_title')}
-            </h3>
-            <ul className="path-list left-aligned-list">
-              <li onClick={() => navigate('/mindset')} className="clickable-text">
-                {t('shared_home_path1')}
-              </li>
-              <li onClick={() => navigate('/modules/ethereum')} className="clickable-text">
-                {t('shared_home_path2')}
-              </li>
-              <li onClick={() => navigate('/modules/web3defi')} className="clickable-text">
-                {t('shared_home_path3')}
-              </li>
-              <li onClick={() => navigate('/blockchain')} className="clickable-text">
-                {t('shared_home_path4')}
-              </li>
-              <li onClick={() => navigate('/token')} className="clickable-text">
-                {t('shared_token_module')}
-              </li>
-            </ul>
-          </div>
-
           <div className="home-section">
             <h3 className="section-title neon-blue">{t('shared_home_system_title')}</h3>
             <ul className="how-list">
@@ -67,6 +44,7 @@ export default function HomePage() {
             <p className="home-philosophy">{t('shared_home_final_subtitle')}</p>
           </div>
 
+          {/* 🔼 ПЕРЕМЕЩЕННЫЕ КНОПКИ */}
           <div className="center-button-row">
             <button className="start-button" onClick={() => navigate('/dashboard')}>
               {t('shared_home_main_cta')}
@@ -83,13 +61,15 @@ export default function HomePage() {
             <button className="secondary-button" onClick={() => navigate('/aboutproject')}>
               {t('shared_home_button_whitepaper')}
             </button>
-          </div>
-
-          <div className="support-button-container">
+          </div>         
+           <div className="support-button-container">
             <Link to="/support" className="support-button">
               {t('shared_home_support_project')}
             </Link>
           </div>
+          {/* 🔽 КОНЕЦ перемещённых кнопок */}
+
+
         </div>
       </div>
     </div>

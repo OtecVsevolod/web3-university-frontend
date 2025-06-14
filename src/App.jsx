@@ -14,6 +14,13 @@ import WhitepaperPage from './pages/modules/aboutproject/WhitepaperPage';
 import ManifestPage from './pages/modules/aboutproject/ManifestPage';
 import SupportPage from './pages/modules/aboutproject/SupportPage';
 import PracticeDashboard from './pages/modules/practice/PracticeDashboard';
+import ExchangeModule from './pages/modules/practice/exchange/ExchangeModule';
+// === Урок 1: Регистрация на бирже
+import Lesson1Register from './pages/modules/practice/exchange/lesson1_register'; // ⚠️ У тебя этот файл уже назван lesson1_stablecoins.jsx
+import Lesson2Register from './pages/modules/practice/exchange/lesson2_register'; 
+import Lesson3Register from './pages/modules/practice/exchange/lesson3_register'; 
+import Lesson4Register from './pages/modules/practice/exchange/lesson4_register'; 
+
 
 // Модуль 0: Мышление и финансовая грамотность
 import MindsetModule from './pages/modules/mindset/MindsetModule';
@@ -161,7 +168,12 @@ export default function App() {
           <Route path="/modules/aboutproject/manifest" element={<ManifestPage />} />
           <Route path="/support" element={<SupportPage />} />
           <Route path="/practice" element={<PracticeDashboard />} />
-
+          <Route path="/practice/exchange" element={<ExchangeModule />} />
+          {/* === Урок 1: Регистрация на бирже === */}
+          <Route path="/practice/exchange/lesson1" element={<Lesson1Register />} />
+          <Route path="/practice/exchange/lesson2" element={<Lesson2Register />} />
+          <Route path="/practice/exchange/lesson3" element={<Lesson3Register />} />
+          <Route path="/practice/exchange/lesson4" element={<Lesson4Register />} />
          {/* Модуль: Мышление и финансовая грамотность */}
           <Route path="/mindset" element={<MindsetModule />} />
           <Route path="/mindset/lesson1" element={<MindsetLesson1 />} />

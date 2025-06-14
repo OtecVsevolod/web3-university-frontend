@@ -150,7 +150,16 @@
     "shared_zk_lesson17": "Lección 17: Herramientas para desarrolladores",
     "shared_zk_lesson18": "Lección 18: ZK y el futuro de Web3",
     "shared_zk_lesson19": "Lección 19: Camino en ZK — paso a paso",
-    "shared_zk_lesson20": "Lección 20: Manifiesto ZK"
+    "shared_zk_lesson20": "Lección 20: Manifiesto ZK",
+
+    "shared_practice_exchange": "Exchanges / Stablecoins",
+    "shared_practice_quests": "Quests",
+    "shared_practice_etherfi": "Ether.fi",
+    "shared_practice_staking": "Staking",
+    "shared_practice_exchange_lesson1": "Lección 1: Registro",
+    "shared_practice_exchange_lesson2": "Lección 2: Compra de stablecoins",
+    "shared_practice_exchange_lesson3": "Lección 3: Orden y recepción de cripto",
+    "shared_practice_exchange_lesson4": "Lección 4: Dónde están tus monedas"
   
   
   }
