@@ -66,9 +66,9 @@
   border: 0.3px solid #ff85c2c2;
   border-radius: 10px;
   box-shadow:
-    0 0 1px #ff85c2da,
-    0 0 5px #ff85c2ce,
-    0 0 10px #ff85c2d7;
+    0 0 1px #ff85c1,
+    0 0 5px #ff85c1,
+    0 0 10px #ff85c1;
 }
 
 .neon-sign-wrapper::before {
@@ -212,7 +212,7 @@
   padding: 1px 10px;
   border: 1px solid #f1f1ea;
   border-radius: 5px;
-  box-shadow: 0 0 5px #bb92a6, 0 0 7px #dad0d5;
+  box-shadow: 0 0 5px #bb92a6, 0 0 7px #dbd5d8;
   display: inline-block;
 }
 
@@ -228,3 +228,4 @@
   padding-left: 0;
   margin-left: 0;
 }
+

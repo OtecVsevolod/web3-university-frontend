@@ -1,40 +1,3 @@
-
-  
-.practice-lesson-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px 10px;
-  background-color: #03181b;
-  border: 0.2px solid #444;
-  border-radius: 8px;
-  color: #f1f1f1;
-  font-family: 'Courier New', monospace;
-}
-
-.practice-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.practice-image-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  border: 1px solid #555;
-  border-radius: 6px;
-  background-color: #0d1d1f;
-  padding: 6px;
-}
-
-.practice-text {
-  margin-top: 10px;
-  text-align: left;
-}
-
 .practice-lesson-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -43,54 +6,61 @@
   background-color: #03181b;
   border: 1px solid #444;
   border-radius: 8px;
+  font-family: 'Courier New', monospace;
 }
 
+/* 🔄 Горизонтальная прокручиваемая галерея */
 .practice-gallery {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
+  overflow-x: auto;
   gap: 12px;
+  padding: 10px 0;
   margin-bottom: 20px;
+  scrollbar-width: none; /* Firefox */
+}
+
+.practice-gallery::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }
 
 .practice-image-wrapper {
-  max-width: 160px;
-  flex: 1 1 ;
+  flex-shrink: 0;
+  width: auto;
+  max-height: 220px;
   border-radius: 8px;
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.2s ease;
+  border: 1px solid #555;
+  background-color: #0d1d1f;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .practice-image-wrapper img {
-  width: 100%;
-  height: auto;
+  height: 100%;
+  width: auto;
   display: block;
+  object-fit: contain;
   border-radius: 8px;
-  object-fit: cover;
-  
 }
 
+/* 🔍 Ховер-эффект */
 .practice-image-wrapper:hover {
   transform: scale(1.03);
 }
 
-/* Адаптив под телефон */
-@media (max-width: 768px) {
+/* 📱 Мобильная адаптация */
+@media (max-width: 600px) {
   .practice-image-wrapper {
-    max-width: 45%;
-    flex: 1 1 45%;
+    max-height: 160px;
   }
 }
 
-@media (max-width: 480px) {
-  .practice-image-wrapper {
-    max-width: 100%;
-    flex: 1 1 100%;
-  }
-}
-
-/* Модалка */
+/* 🖼 Модалка */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -111,7 +81,7 @@
   box-shadow: 0 0 20px #000;
 }
 
-/* Текст */
+/* 📄 Текст */
 .practice-text {
   margin-top: 20px;
   font-size: 1.1rem;
@@ -127,10 +97,59 @@
   text-decoration: underline;
 }
 
-/* Кнопки */
+/* 🔘 Кнопки */
 .navigation-buttons {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
+.practice-gallery-horizontal {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding: 10px 0;
+  scrollbar-width: none; /* Firefox */
+}
+
+.practice-gallery-horizontal::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.practice-image {
+  height: 240px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  cursor: pointer;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.practice-image:hover {
+  transform: scale(1.02);
+}
+
+/* 🆕 Галерея-сетка как в Telegram */
+.practice-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.practice-gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  object-fit: cover;
+  border: 1px solid #444;
+  background-color: #0d1d1f;
+  padding: 4px;
+  transition: transform 0.2s ease;
+}
+
+.practice-gallery-grid img:hover {
+  transform: scale(1.03);
+}

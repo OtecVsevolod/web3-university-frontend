@@ -46,11 +46,8 @@ export default function Dashboard() {
         <Link to="/zk" className="dashboard-button">
           <Trans i18nKey="shared_zk_module" />
         </Link>
-        <Link to="/airdrops" className="dashboard-button">
-          <Trans i18nKey="shared_airdrop_module" />
-        </Link>
-        <Link to="/platforms" className="dashboard-button">
-          <Trans i18nKey="shared_platforms_module" />
+        <Link to="/trading" className="dashboard-button">
+          <Trans i18nKey="shared_trading_module" />
         </Link>
         <Link to="/support" className="dashboard-button">
           <Trans i18nKey="shared_support_button" />

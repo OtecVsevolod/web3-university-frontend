@@ -32,6 +32,9 @@ export default function ExchangeModule() {
         <Link to="/practice/exchange/lesson3" className="dashboard-button">
           <Trans i18nKey="shared_practice_exchange_lesson3" />
         </Link>
+        <Link to="/practice/exchange/lesson4" className="dashboard-button">
+          <Trans i18nKey="shared_practice_exchange_lesson4" />
+        </Link>
 
         {/* На будущее — финальный тест */}
         <Link to="/practice/exchange/test" className="dashboard-button final-button">

@@ -150,7 +150,59 @@ import ZkLesson20 from './pages/modules/zk/ZkLesson20';
 // 🧪 Финальный тест
 import FinalTestZk from './pages/modules/zk/FinalTestZk';
 
+// Главный модуль и финальный тест
+import TradingModule from './pages/modules/trading/TradingModule';
 
+// Уроки 1–45
+import TradingLesson1 from './pages/modules/trading/TradingLesson1';
+import TradingLesson2 from './pages/modules/trading/TradingLesson2';
+import TradingLesson3 from './pages/modules/trading/TradingLesson3';
+import TradingLesson4 from './pages/modules/trading/TradingLesson4';
+import TradingLesson5 from './pages/modules/trading/TradingLesson5';
+import TradingLesson6 from './pages/modules/trading/TradingLesson6';
+import TradingLesson7 from './pages/modules/trading/TradingLesson7';
+import TradingLesson8 from './pages/modules/trading/TradingLesson8';
+import TradingLesson9 from './pages/modules/trading/TradingLesson9';
+import TradingLesson10 from './pages/modules/trading/TradingLesson10';
+
+import TradingLesson11 from './pages/modules/trading/TradingLesson11';
+import TradingLesson12 from './pages/modules/trading/TradingLesson12';
+import TradingLesson13 from './pages/modules/trading/TradingLesson13';
+import TradingLesson14 from './pages/modules/trading/TradingLesson14';
+import TradingLesson15 from './pages/modules/trading/TradingLesson15';
+import TradingLesson16 from './pages/modules/trading/TradingLesson16';
+import TradingLesson17 from './pages/modules/trading/TradingLesson17';
+import TradingLesson18 from './pages/modules/trading/TradingLesson18';
+import TradingLesson19 from './pages/modules/trading/TradingLesson19';
+import TradingLesson20 from './pages/modules/trading/TradingLesson20';
+
+import TradingLesson21 from './pages/modules/trading/TradingLesson21';
+import TradingLesson22 from './pages/modules/trading/TradingLesson22';
+import TradingLesson23 from './pages/modules/trading/TradingLesson23';
+import TradingLesson24 from './pages/modules/trading/TradingLesson24';
+import TradingLesson25 from './pages/modules/trading/TradingLesson25';
+import TradingLesson26 from './pages/modules/trading/TradingLesson26';
+import TradingLesson27 from './pages/modules/trading/TradingLesson27';
+import TradingLesson28 from './pages/modules/trading/TradingLesson28';
+import TradingLesson29 from './pages/modules/trading/TradingLesson29';
+import TradingLesson30 from './pages/modules/trading/TradingLesson30';
+
+import TradingLesson31 from './pages/modules/trading/TradingLesson31';
+import TradingLesson32 from './pages/modules/trading/TradingLesson32';
+import TradingLesson33 from './pages/modules/trading/TradingLesson33';
+import TradingLesson34 from './pages/modules/trading/TradingLesson34';
+import TradingLesson35 from './pages/modules/trading/TradingLesson35';
+import TradingLesson36 from './pages/modules/trading/TradingLesson36';
+import TradingLesson37 from './pages/modules/trading/TradingLesson37';
+import TradingLesson38 from './pages/modules/trading/TradingLesson38';
+import TradingLesson39 from './pages/modules/trading/TradingLesson39';
+import TradingLesson40 from './pages/modules/trading/TradingLesson40';
+
+import TradingLesson41 from './pages/modules/trading/TradingLesson41';
+import TradingLesson42 from './pages/modules/trading/TradingLesson42';
+import TradingLesson43 from './pages/modules/trading/TradingLesson43';
+import TradingLesson44 from './pages/modules/trading/TradingLesson44';
+import TradingLesson45 from './pages/modules/trading/TradingLesson45';
 export default function App() {
   return (
     <Router>
@@ -290,6 +342,58 @@ export default function App() {
           <Route path="/zk/lesson19" element={<ZkLesson19 />} />
           <Route path="/zk/lesson20" element={<ZkLesson20 />} />
           <Route path="/zk/test" element={<FinalTestZk />} />
+
+          <Route path="/trading" element={<TradingModule />} />
+
+          <Route path="/trading/lesson1" element={<TradingLesson1 />} />
+          <Route path="/trading/lesson2" element={<TradingLesson2 />} />
+          <Route path="/trading/lesson3" element={<TradingLesson3 />} />
+          <Route path="/trading/lesson4" element={<TradingLesson4 />} />
+          <Route path="/trading/lesson5" element={<TradingLesson5 />} />
+          <Route path="/trading/lesson6" element={<TradingLesson6 />} />
+          <Route path="/trading/lesson7" element={<TradingLesson7 />} />
+          <Route path="/trading/lesson8" element={<TradingLesson8 />} />
+          <Route path="/trading/lesson9" element={<TradingLesson9 />} />
+          <Route path="/trading/lesson10" element={<TradingLesson10 />} />
+
+          <Route path="/trading/lesson11" element={<TradingLesson11 />} />
+          <Route path="/trading/lesson12" element={<TradingLesson12 />} />
+          <Route path="/trading/lesson13" element={<TradingLesson13 />} />
+          <Route path="/trading/lesson14" element={<TradingLesson14 />} />
+          <Route path="/trading/lesson15" element={<TradingLesson15 />} />
+          <Route path="/trading/lesson16" element={<TradingLesson16 />} />
+          <Route path="/trading/lesson17" element={<TradingLesson17 />} />
+          <Route path="/trading/lesson18" element={<TradingLesson18 />} />
+          <Route path="/trading/lesson19" element={<TradingLesson19 />} />
+          <Route path="/trading/lesson20" element={<TradingLesson20 />} />
+
+          <Route path="/trading/lesson21" element={<TradingLesson21 />} />
+          <Route path="/trading/lesson22" element={<TradingLesson22 />} />
+          <Route path="/trading/lesson23" element={<TradingLesson23 />} />
+          <Route path="/trading/lesson24" element={<TradingLesson24 />} />
+          <Route path="/trading/lesson25" element={<TradingLesson25 />} />
+          <Route path="/trading/lesson26" element={<TradingLesson26 />} />
+          <Route path="/trading/lesson27" element={<TradingLesson27 />} />
+          <Route path="/trading/lesson28" element={<TradingLesson28 />} />
+          <Route path="/trading/lesson29" element={<TradingLesson29 />} />
+          <Route path="/trading/lesson30" element={<TradingLesson30 />} />
+
+          <Route path="/trading/lesson31" element={<TradingLesson31 />} />
+          <Route path="/trading/lesson32" element={<TradingLesson32 />} />
+          <Route path="/trading/lesson33" element={<TradingLesson33 />} />
+          <Route path="/trading/lesson34" element={<TradingLesson34 />} />
+          <Route path="/trading/lesson35" element={<TradingLesson35 />} />
+          <Route path="/trading/lesson36" element={<TradingLesson36 />} />
+          <Route path="/trading/lesson37" element={<TradingLesson37 />} />
+          <Route path="/trading/lesson38" element={<TradingLesson38 />} />
+          <Route path="/trading/lesson39" element={<TradingLesson39 />} />
+          <Route path="/trading/lesson40" element={<TradingLesson40 />} />
+
+          <Route path="/trading/lesson41" element={<TradingLesson41 />} />
+          <Route path="/trading/lesson42" element={<TradingLesson42 />} />
+          <Route path="/trading/lesson43" element={<TradingLesson43 />} />
+          <Route path="/trading/lesson44" element={<TradingLesson44 />} />
+          <Route path="/trading/lesson45" element={<TradingLesson45 />} />
         </Routes>
       </div>
     </Router>

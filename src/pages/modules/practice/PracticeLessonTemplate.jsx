@@ -39,11 +39,15 @@ export default function PracticeLessonTemplate({ module, lessonKey, images, prev
         </h2>
 
         {Array.isArray(images) && images.length > 0 && (
-          <div className="practice-gallery">
+          <div className="practice-gallery-horizontal">
             {images.map((img, index) => (
-              <div key={index} className="practice-image-wrapper" onClick={() => setSelectedImage(img)}>
-                <img src={img} alt={`step-${index}`} />
-              </div>
+              <img
+                key={index}
+                src={img}
+                alt={`step-${index}`}
+                className="practice-image"
+                onClick={() => setSelectedImage(img)}
+              />
             ))}
           </div>
         )}
